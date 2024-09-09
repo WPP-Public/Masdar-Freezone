@@ -1,0 +1,79 @@
+/* -----------------------------------------------------
+Fonts
+----------------------------------------------------- */
+@font-face {
+    font-family: 'DINPro';
+    src: url('../../assets/fonts/DINPro.eot');
+    src: url('../../assets/fonts/DINPro.eot') format('embedded-opentype'),
+        url('../../assets/fonts/DINPro.woff2') format('woff2'),
+        url('../../assets/fonts/DINPro.woff') format('woff'),
+        url('../../assets/fonts/DINPro.ttf') format('truetype'),
+        url('../../assets/fonts/DINPro.svg#DINPro') format('svg');
+}
+
+@font-face {
+    font-family: 'DINProBold';
+    src: url('../../assets/fonts/DINProBold.eot');
+    src: url('../../assets/fonts/DINProBold.eot') format('embedded-opentype'),
+        url('../../assets/fonts/DINProBold.woff2') format('woff2'),
+        url('../../assets/fonts/DINProBold.woff') format('woff'),
+        url('../../assets/fonts/DINProBold.ttf') format('truetype'),
+        url('../../assets/fonts/DINProBold.svg#DINProBold') format('svg');
+}
+
+@font-face {
+    font-family: 'DINProMedium';
+    src: url('../../assets/fonts/DINProMedium.eot');
+    src: url('../../assets/fonts/DINProMedium.eot') format('embedded-opentype'),
+        url('../../assets/fonts/DINProMedium.woff2') format('woff2'),
+        url('../../assets/fonts/DINProMedium.woff') format('woff'),
+        url('../../assets/fonts/DINProMedium.ttf') format('truetype'),
+        url('../../assets/fonts/DINProMedium.svg#DINProMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'DINProCondBold';
+    src: url('../../assets/fonts/DINProCondBold.eot');
+    src: url('../../assets/fonts/DINProCondBold.eot') format('embedded-opentype'),
+        url('../../assets/fonts/DINProCondBold.woff2') format('woff2'),
+        url('../../assets/fonts/DINProCondBold.woff') format('woff'),
+        url('../../assets/fonts/DINProCondBold.ttf') format('truetype'),
+        url('../../assets/fonts/DINProCondBold.svg#DINProCondBold') format('svg');
+}
+
+@font-face {
+    font-family: 'DINProLight';
+    src: url('../../assets/fonts/DINProLight.eot');
+    src: url('../../assets/fonts/DINProLight.eot') format('embedded-opentype'),
+        url('../../assets/fonts/DINProLight.woff2') format('woff2'),
+        url('../../assets/fonts/DINProLight.woff') format('woff'),
+        url('../../assets/fonts/DINProLight.ttf') format('truetype'),
+        url('../../assets/fonts/DINProLight.svg#DINProLight') format('svg');
+}
+
+$font-regular: 'DINPro';
+$font-bold: 'DINProCondBold';
+$font-bold2: 'DINProBold';
+$font-medium: 'DINProMedium';
+$font-light: 'DINProLight';
+
+
+.font-b {
+    font-family: $font-bold
+}
+
+.font-l {
+    font-family: $font-light
+}
+
+.font-b2 {
+    font-family: $font-bold2
+}
+
+.font-m {
+    font-family: $font-medium
+}
+
+.font-r {
+    font-family: $font-regular
+}

@@ -1,0 +1,396 @@
+html,
+body {
+    font-size: 16px;
+}
+
+.text-black {
+    color: var(--black) !important;
+}
+
+.text-white {
+    color: var(--white) !important;
+}
+
+.text-light {
+    color: var(--sys-secondary-secondary-light) !important;
+}
+
+.text-dark {
+    color: var(--sys-neutral-on-background) !important;
+}
+
+.text-grey {
+    color: var(--text-grey) !important;
+}
+
+.text-brown {
+    color: var(--colors-brown-on-brown-container) !important;
+}
+
+.text-dark-grey {
+    color: var(--sys-neutral-variant-inverse-surface) !important
+}
+
+.text-light-grey {
+    color: var(--light-grey)
+}
+
+.text-teal {
+    color: var(--sys-primary-primary) !important;
+}
+
+.text-navy {
+    color: var(--colors-secondary-secondary);
+}
+
+.tex-navy2 {
+    color: #1B313B;
+}
+
+.bg-footer {
+    background-color: #3B6A80;
+}
+
+.text-dark-green {
+    color: var(--sys-primary-on-primary-container);
+}
+
+.bg-black {
+    background-color: var(--black) !important;
+}
+
+.bg-teal-light {
+    background-color: var(--sys-primary-primary-container) !important;
+}
+
+.bg-white {
+    background-color: var(--white) !important;
+}
+
+.bg-navy {
+    background-color: var(--sys-secondary-on-secondary-container) !important;
+
+}
+
+.text-navy2 {
+    color: var(--sys-secondary-on-secondary-container) !important
+}
+
+.bg-grey {
+    background-color: var(--sys-neutral-background) !important;
+}
+
+.bg-blue1 {
+    background-color: var(--sys-secondary-secondary-container) !important
+}
+
+.bg-blue2 {
+    background-color: var(--sys-secondary-secondary) !important
+}
+
+.bg-blue-light {
+    background-color: #C4D4DC !important;
+}
+
+.bg-dark-grey {
+    background-color: var(--dark-grey) !important;
+}
+
+.text-blue {
+    color: var(--sys-secondary-secondary) !important
+}
+
+.bg-teal {
+    background-color: var(--sys-primary-primary) !important
+}
+
+.text-yellow {
+    color: var(--colors-yellow-yellow-container);
+}
+
+.text-yellow-light {
+    color: var(--sys-tertiary-tertiary-container);
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.bg-quote {
+    background-color: var(--greyabout) !important;
+}
+
+.fs-3 {
+    font-size: 3rem !important;
+    line-height: 0.6;
+}
+
+.fs-4 {
+    font-size: 2.5rem !important;
+    line-height: 1;
+}
+
+.fs-5 {
+    font-size: 1.875rem !important;
+    line-height: 1;
+}
+
+.fs-6 {
+    font-size: 1.25rem !important;
+    line-height: 1.5;
+}
+
+.fs-13 {
+    font-size: 0.813rem !important;
+    line-height: 1.5;
+}
+
+.fs-8 {
+    font-size: 0.5rem !important;
+    line-height: 1;
+}
+
+.fs-10 {
+    font-size: 0.625rem !important;
+    line-height: 1;
+}
+
+.fs-12 {
+    font-size: 0.75rem !important;
+    line-height: 1.5;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+header {
+    .fs-14 {
+        font-size: 0.875rem !important;
+    }
+}
+
+.fs-18 {
+    font-size: 1.125rem !important;
+    line-height: 1.5;
+}
+
+.fs-20 {
+    font-size: 1.25rem !important;
+    line-height: 1.5;
+}
+
+.fs-22 {
+    font-size: 1.375rem !important;
+    line-height: 1.5;
+}
+
+.fs-24 {
+    font-size: 1.5rem !important;
+    line-height: 1.5;
+}
+
+.fs-28 {
+    font-size: 1.75rem !important;
+    line-height: 1.4;
+}
+
+.fs-32 {
+    font-size: 2rem !important;
+    line-height: 1.4;
+}
+
+.fs-36 {
+    font-size: 2.25rem !important;
+    line-height: 1;
+}
+
+.fs-48 {
+    font-size: 3rem !important;
+    line-height: 1;
+}
+
+.fs-56 {
+    font-size: 3.5rem !important;
+    line-height: 1;
+}
+
+.fs-57 {
+    font-size: 3.5rem !important;
+    line-height: 1;
+}
+
+.fs-96 {
+    font-size: 5.5rem !important;
+    line-height: 1;
+}
+
+.fs-huge {
+    font-size: 6.5rem !important;
+    line-height: 1.2;
+}
+
+.z-11 {
+    z-index: 11;
+}
+
+.py-80 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.py-130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.vertical-bottom {
+    vertical-align: text-bottom;
+}
+
+.w-96 {
+    width: 96%;
+}
+
+.w-lg-30 {
+    width: 53%;
+}
+
+.w-lg-80 {
+    width: 80%;
+}
+.ar .w-lg-80{
+    margin-right: auto !important;
+}
+.text-wrapper {
+    position: absolute;
+}
+
+.h-500 {
+    height: 75vh;
+}
+
+.h50vh {
+    height: 50vh;
+}
+
+@media (min-width: 100px) and (max-width: 991.98px) {
+    .fs-96 {
+        font-size: 3rem !important;
+    }
+
+    .fs-56 {
+        font-size: 1.5rem !important;
+
+        &.section-title {
+            font-size: 3rem !important;
+        }
+    }
+
+    .py-40,
+    .py-80,
+    .py-130 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .w-lg-30,
+    .w-lg-80 {
+        width: 100%;
+    }
+
+    .text-wrapper {
+        position: relative;
+    }
+
+    .h-500 {
+        height: 50vh;
+    }
+}
+
+button {
+    @extend .font-r;
+}
+
+.w-0 {
+    width: 0;
+}
+
+.pt-130 {
+    padding-top: 130px;
+}
+
+.h-90-vh {
+    height: 80vh;
+    min-height: 650px;
+}
+
+.w-90 {
+    width: 90% !important;
+}
+
+.w-lg-50 {
+    width: 90%;
+}
+
+.h-75vh {
+    height: 75vh;
+}
+
+.accordion-section {
+    padding: 48px 0px 0px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.pt-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.w-auto {
+    width: auto;
+}
+
+
+
+.bg-mint {
+    background-color: #cfe2e3
+}
+
+.left-0 {
+    left: 0;
+}
+
+.overflow-y-hidden {
+    overflow-y: hidden
+}
+
+.italic {
+    font-style: italic;
+}
+
+.rounded-5 {
+    border-radius: 24px;
+}

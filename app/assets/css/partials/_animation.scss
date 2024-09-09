@@ -1,0 +1,800 @@
+.ar {
+    @keyframes clip-animate-x-static-img-ar {
+        0% {
+            transform: translateX(100%);
+            opacity: 1;
+        }
+
+        100% {
+            transform: translate(5%);
+            opacity: 1;
+        }
+    }
+
+    @keyframes clip-animate-x-static-img-ar-right-full {
+        0% {
+            transform: translateX(-100%);
+            opacity: 1;
+        }
+
+        100% {
+            transform: translate(0%);
+            opacity: 1;
+        }
+    }
+
+    @keyframes clip-animate-x {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translate(0px);
+            opacity: 1;
+        }
+    }
+
+    @keyframes clip-animate-x-reverse-ar {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translate(0px);
+            opacity: 1;
+        }
+    }
+
+    @keyframes clip-animate-x-static-img-2-ar {
+        0% {
+            transform: translateX(100%);
+            opacity: 1;
+        }
+
+        100% {
+            transform: translate(10%);
+            opacity: 1;
+        }
+    }
+
+    @keyframes Animation4-ar {
+        0% {
+            transform: translateX(110%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translate(0px);
+            opacity: 1;
+        }
+    }
+
+    .animation4 {
+        animation-name: Animation4-ar;
+        animation-duration: 1.5s;
+        animation-timing-function: cubic-bezier(0, .9, .9, .99);
+        animation-fill-mode: forwards;
+    }
+
+    .clip-animate-x-reverse {
+        animation-name: clip-animate-x-reverse-ar;
+        animation-duration: 1000ms;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+    .clip-animate-x-static-img {
+        animation-name: clip-animate-x-static-img-ar
+    }
+
+    .clip-animate-x-static-img-right {
+        animation-name: clip-animate-x-static-img
+    }
+
+    .clip-animate-x-static-img-right-full {
+        animation-name: clip-animate-x-static-img-ar-right-full
+    }
+
+    .clip-animate-x-static-img-2 {
+        animation-name: clip-animate-x-static-img-2-ar;
+    }
+}
+
+@keyframes clip-animate-x-static-img {
+    0% {
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-5%);
+        opacity: 1;
+    }
+}
+
+@keyframes clip-animate-x-static-img-2 {
+    0% {
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-10%);
+        opacity: 1;
+    }
+}
+
+@keyframes clip-animate-x-static-img-right {
+    0% {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(5%);
+        opacity: 1;
+    }
+}
+
+@keyframes clip-animate-x-static-img-right-full {
+    0% {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes bg-image {
+    0% {
+        transform: scale(1.1);
+        transform-origin: right
+    }
+
+    100% {
+        transform: scale(1);
+        transform-origin: right
+    }
+}
+
+@keyframes border-animation {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes translate-x {
+    0% {
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes translate-x-ar {
+    0% {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes bullet-animation {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70px;
+    }
+}
+
+@keyframes bullet-animation-2 {
+    0% {
+        width: 0vw;
+    }
+
+    100% {
+        width: 20vw;
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes clip-animate-y-hero {
+    0% {
+        transform: translateY(110%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes example {
+    0% {
+        font-size: 6rem;
+
+    }
+
+    100% {
+        font-size: 6rem;
+        /*top: 30%;*/
+
+    }
+}
+
+@keyframes clip-animate-y {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes clip-animate-x {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes clip-animate-x-reverse {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes clip-rect {
+    0% {
+        clip-path: inset(90% 0 0 0)
+    }
+
+    100% {
+        clip-path: inset(0 0 0 0)
+    }
+}
+
+@keyframes map-btns {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes clip-animate-y-button {
+    0% {
+        transform: translateY(100%) translateX(-50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px) translateX(-50%);
+        opacity: 1;
+    }
+}
+
+@keyframes swiper-text-animation {
+    0% {
+        bottom: 10%;
+        opacity: 1;
+        font-size: 5.5rem;
+    }
+
+    100% {
+        bottom: 30%;
+        opacity: 1;
+        font-size: 3.5rem;
+    }
+}
+
+@keyframes swiper-text-animation-backward {
+    0% {
+        bottom: 30%;
+        opacity: 1;
+        font-size: 3.5rem;
+    }
+
+    100% {
+        bottom: 10%;
+        opacity: 1;
+        font-size: 5.5rem;
+    }
+}
+
+@keyframes swiper-text-animation1 {
+    0% {
+        bottom: 0;
+        opacity: 0;
+        font-size: 5.5rem;
+    }
+
+    100% {
+        bottom: 10%;
+        opacity: 1;
+        font-size: 5.5rem;
+    }
+}
+
+@keyframes swiper-text-animation1-backward {
+    0% {
+        bottom: 10%;
+        opacity: 1;
+        font-size: 5.5rem;
+    }
+
+    100% {
+        bottom: 0;
+        opacity: 0;
+        font-size: 5.5rem;
+    }
+}
+
+@keyframes swiper-text-animation2 {
+    0% {
+        bottom: 30%;
+        opacity: 1;
+        font-size: 3.5rem;
+    }
+
+    100% {
+        bottom: 45%;
+        opacity: 1;
+        font-size: 3.5rem;
+    }
+}
+
+@keyframes swiper-text-animation2-backward {
+    0% {
+        bottom: 45%;
+        opacity: 1;
+        font-size: 3.5rem;
+    }
+
+    100% {
+
+        bottom: 30%;
+        opacity: 1;
+        font-size: 3.5rem;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes Animation1 {
+    0% {
+        transform: 'translateY(110%)';
+        opacity: 0;
+    }
+
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes Animation4 {
+    0% {
+        transform: translateX(-110%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.clip-animate-x-static-img {
+    animation-name: clip-animate-x-static-img;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.clip-animate-x-static-img-2 {
+    animation-name: clip-animate-x-static-img-2;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.clip-animate-x-static-img-right {
+    animation-name: clip-animate-x-static-img-right;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.clip-animate-x-static-img-right-full {
+    animation-name: clip-animate-x-static-img-right-full;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.translate-x-panel {
+    animation-name: translate-x;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.translate-bg {
+    animation-name: bg-image;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.clip-animate-y-map-delay {
+    animation-name: clip-animate-y;
+    animation-duration: 1s;
+    animation-delay: 1.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.opacity-map-delay {
+    animation-name: opacity;
+    animation-duration: 1s;
+    animation-delay: 1.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.opacity-animation {
+    animation-name: opacity;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.animation1 {
+    animation-name: Animation1;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0, .9, .9, .99);
+    animation-fill-mode: forwards;
+}
+
+.animation2 {
+    animation-name: border-animation;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0, .9, .9, .99);
+    animation-fill-mode: forwards;
+}
+
+
+
+.animation3 {
+    animation-name: opacity;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0, .9, .9, .99);
+    animation-fill-mode: forwards;
+}
+
+.animation4 {
+    animation-name: Animation4;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0, .9, .9, .99);
+    animation-fill-mode: forwards;
+}
+
+.clip-rect {
+    animation-name: clip-rect;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, .9, .9, .99);
+    animation-fill-mode: forwards;
+}
+
+.swiper-text-animation {
+    animation-name: swiper-text-animation;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0, .9, .9, .99);
+    animation-fill-mode: forwards;
+}
+
+.swiper-text-animation-backward {
+    animation-name: swiper-text-animation-backward;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0, .9, .9, .99);
+    animation-fill-mode: forwards;
+}
+
+.swiper-text-animation1 {
+    animation-name: swiper-text-animation1;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0, .9, .9, .99);
+    animation-fill-mode: forwards;
+}
+
+.swiper-text-animation1-backward {
+    animation-name: swiper-text-animation1-backward;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0, .9, .9, .99);
+    animation-fill-mode: forwards;
+}
+
+.swiper-text-animation2 {
+    animation-name: swiper-text-animation2;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0, .9, .9, .99);
+    animation-fill-mode: forwards;
+}
+
+.swiper-text-animation2-backward {
+    animation-name: swiper-text-animation2-backward;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0, .9, .9, .99);
+    animation-fill-mode: forwards;
+}
+
+.progress-animation {
+    animation-name: slideInFromLeft;
+    animation-duration: 5s;
+    animation-timing-function: cubic-bezier(0, .9, .9, .99);
+    animation-fill-mode: forwards;
+}
+
+
+.cubicTransition {
+    transition: all 500ms cubic-bezier(0.2, 0, 0.2, 1);
+    -webkit-transition: all 500ms cubic-bezier(0.2, 0, 0.2, 1);
+    -moz-transition: all 500ms cubic-bezier(0.2, 0, 0.2, 1);
+    -o-transition: all 500ms cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.clip-animate-y-hero {
+    animation-delay: 6s;
+    animation-name: clip-animate-y-hero;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-fill-mode: backwards;
+}
+
+.clip-animate-y {
+    animation-name: clip-animate-y;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-fill-mode: backwards;
+}
+
+.clip-animate-y-map {
+    animation-name: clip-animate-y;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.clip-animate-x-map {
+    animation-name: clip-animate-x;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.clip-animate-x-reverse {
+    animation-name: clip-animate-x-reverse;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.map-btns {
+    animation-name: map-btns;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.clip-animate-y-map-button {
+    animation-name: clip-animate-y-button;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes rotating
+
+/* Safari and Chrome */
+    {
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+}
+
+@media (min-width: 100px) and (max-width: 991px) {
+
+    .clip-animate-x-static-img-right,
+    .clip-animate-x-static-img-right-full,
+    .clip-animate-x-static-img-2 {
+        animation: initial;
+    }
+
+    .clip-animate-x-reverse,
+    .clip-animate-x-static-img {
+        animation: initial
+    }
+
+    @keyframes clip-animate-y {
+        0% {
+            transform: translateY(500px);
+        }
+
+        100% {
+            transform: translate(0px);
+        }
+    }
+
+    @keyframes bullet-animation-2 {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 11vw;
+        }
+    }
+
+    .ar {
+        @keyframes Animation4-ar {
+            0% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translate(0);
+                opacity: 1;
+            }
+        }
+
+        .animation4 {
+            animation-name: Animation4-ar;
+            animation-duration: 1.5s;
+            animation-timing-function: cubic-bezier(0, .9, .9, .99);
+            animation-fill-mode: forwards;
+        }
+
+    }
+
+    .ar .clip-animate-x-reverse,
+    .ar .clip-animate-x-static-img,
+    .ar .clip-animate-x-static-img-right,
+    .ar .clip-animate-x-static-img-right-full {
+        animation: initial;
+    }
+
+    .clip-animate-y-map-button,
+    .opacity-map-delay,
+    .clip-animate-y-map-delay,
+    .translate-bg,
+    .translate-x-panel,
+    .clip-animate-x-map,
+    .clip-animate-y-map,
+    .clip-animate-y,
+    .clip-animate-y-hero {
+        animation: initial;
+    }
+
+    .map-text-animation,
+    .map-button-animation,
+    .map-text-animation-x {
+        transform: none !important
+    }
+
+    .map-button-animation {
+        transform: translateX(-50%);
+        opacity: 1;
+    }
+
+    .white-container {
+        clip-path: inset(0);
+    }
+
+    .swiper-wrapper {
+        &.animation-wrapper {
+            overflow: visible !important;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}

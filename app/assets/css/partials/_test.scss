@@ -1,0 +1,124 @@
+/*@import "../../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+#about {
+    h1 {
+        @extend .font-b, .fs-96, .mb-5, .text-dark, .mt-5, .mt-lg-0, .text-uppercase;
+    }
+
+    h3 {
+        @extend .text-dark, .fs-48, .font-b, .text-uppercase, .mb-4;
+    }
+
+    h5 {
+        @extend .fs-28, .text-dark, .font-m, .fw-500, .mb-4;
+    }
+
+    h6 {
+        @extend .fs-24, .text-dark, .font-m, .fw-500, .mb-4
+    }
+
+    p {
+        @extend .text-dark, .font-r, .mb-4;
+    }
+
+
+    .title-underline {
+        h1 {
+            @extend .pb-5;
+            border-bottom: 2px solid #000;
+        }
+    }
+
+    #about-section-1 {
+        h5 {
+            @extend .mt-5;
+
+            &:first-of-type {
+                @extend .mt-0
+            }
+        }
+    }
+
+    .quote-content {
+        h6 {
+            @extend .text-navy2, .mb-1;
+
+
+            &:first-of-type {
+                @extend .my-5
+            }
+
+        }
+    }
+
+    #about-section-4 {
+        h6 {
+            @extend .mt-3, .mb-1
+        }
+    }
+
+    a {
+        &.text-white {
+            p {
+                @extend .text-white;
+            }
+        }
+    }
+
+    .modal {
+        p {
+            @extend .px-4
+        }
+
+        h3 {
+            @extend .mb-1
+        }
+    }
+
+    .dropdown-menu {
+        li {
+            text-align: left;
+        }
+    }
+
+    .ar .dropdown-menu {
+        li {
+            text-align: right;
+        }
+    }
+
+    .breadcrumb-section {
+        &.bg-grey {
+            .breadcrumb {
+                @extend .bg-grey;
+
+                .breadcrumb-item {
+                    @extend .font-m, .text-blue, .fs-14, .d-flex, .align-items-center;
+
+                    a {
+                        @extend .text-blue
+                    }
+
+                    &.active {
+                        @extend .font-m, .text-dark, .fs-14, .d-flex, .align-items-center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 100px) and (max-width: 991px) {
+    #about {
+
+        .dropdown-menu,
+        .ar .dropdown-menu {
+            li {
+                text-align: center;
+            }
+        }
+    }
+
+}*/
