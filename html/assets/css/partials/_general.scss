@@ -25,7 +25,7 @@ body {
 }
 
 section {
-  min-height: calc(100vh - 110px);
+  min-height: auto;
   position: relative;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -5021,6 +5021,7 @@ background-color: #F5F6F6;
 
   .accordion.width {
     display: flex;
+    height: auto;
   }
   
   .accordion.width .card {
@@ -5042,6 +5043,7 @@ background-color: #F5F6F6;
     transition: width 0.35s ease;
     height: auto;
     width: 0;
+    opacity: 0;
   }
   .card-header:first-child{
     border: none;
@@ -5053,11 +5055,12 @@ background-color: #F5F6F6;
 
   .accordion-section .card-header{
     width: 152px;
-    height: 450px;
+    height: 100%;
     padding: 0;
     &.collapsed{
       img{filter: grayscale(1);}
     }
+    flex: none;
   }
   .accordion-section .card-header img{
     width: 100%;
@@ -5065,5 +5068,50 @@ background-color: #F5F6F6;
     object-fit: cover;
   }
   .accordion-section .card-body{
-    width: 40vw!important;
+    width: 100% !important;
+    padding-top: 0;
+  padding-bottom:0;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  }
+  .accordion-section p{
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .accordion.width{
+    h2{
+      margin-bottom: 0px!important
+    }
+  }
+  .display-2{
+    p{
+      font-size: 14px;
+      color:#756E6A;
+      margin-bottom: 0;
+    }
+  }
+  .accordion-section h1{
+    text-align: center;
+  }
+  .next,.previous{
+     font-family: 'DINProMedium';
+    color: #00999A;
+    font-size: 14px;
+    background-color: transparent;
+    border: 0;
+    &:hover{
+      opacity: 0.7;
+      transition: all 1s
+    }
+  }
+  .flip{
+    transform: scaleX(-1);
+  }
+  .next:disabled,.previous:disabled{
+    color: #D4D1D0;
+    svg{
+      path{
+        fill: #D4D1D0;
+      }
+    }
   }

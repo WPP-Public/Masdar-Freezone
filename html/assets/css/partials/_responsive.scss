@@ -190,7 +190,13 @@
             font-size: 1rem !important;
         }
     }
-
+    h2 {
+        font-size: 18px !important;
+        line-height: 28px !important;}
+        .accordion-section p {
+            font-size: 18px;
+            line-height: 28px;
+        }
     .volume-slider {
         transform: translate(-50%, 5px);
         left: 50%;
@@ -574,10 +580,22 @@
     .accordion {
         height: 100% !important;
     }
-
+    .accordion-section .card-header img{
+        width: 100%;
+    }
+    .accordion-section .card-body{
+        padding: 0;
+    }
+    .accordion.width .card{
+        flex-direction: column;
+    }
+    .accordion-section .card-header{
+        width: 100%;
+    }
     .accordion.width {
         flex-direction: column;
-
+        height: auto!important;
+        opacity: 1;
         .accordion-item {
             display: block;
         }

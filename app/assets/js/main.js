@@ -40,6 +40,64 @@ $( document ).ready(function() {
         bodies.width(bodies.eq(0).width());
         collapse.not(".show").each((index, element) => {
           $(element).parent().find("[data-bs-toggle='collapse']").addClass("collapsed");
+
         });
       });
+      
+      $('.next').click(function(){
+        if($('#collapseOne').hasClass("show")){
+          $('.card-header[data-bs-target="#collapseOne"]').addClass("collapsed")
+          $('.card-header[data-bs-target="#collapseTwo"]').removeClass("collapsed")
+          $('#collapseOne').removeClass("show")
+          $('#collapseTwo').addClass("show")
+          $('.next').prop("disabled", false);
+          $('.previous').prop("disabled", false);
+        }else{
+          if($('#collapseTwo').hasClass("show")){
+            $('.card-header[data-bs-target="#collapseTwo"]').addClass("collapsed")
+            $('.card-header[data-bs-target="#collapseThree"]').removeClass("collapsed")
+            $('#collapseTwo').removeClass("show")
+            $('#collapseThree').addClass("show")
+            $('.next').prop("disabled", true);
+            $('.previous').prop("disabled", false);
+          }
+        }
+      })
+      $('.previous').click(function(){
+        if($('#collapseTwo').hasClass("show")){
+          $('.card-header[data-bs-target="#collapseTwo"]').addClass("collapsed")
+          $('.card-header[data-bs-target="#collapseOne"]').removeClass("collapsed")
+          $('#collapseTwo').removeClass("show")
+          $('#collapseOne').addClass("show")
+          $('.next').prop("disabled", false);
+          $('.previous').prop("disabled", true);
+        }else{
+          if($('#collapseThree').hasClass("show")){
+            $('.card-header[data-bs-target="#collapseThree"]').addClass("collapsed")
+            $('.card-header[data-bs-target="#collapseTwo"]').removeClass("collapsed")
+            $('#collapseThree').removeClass("show")
+            $('#collapseTwo').addClass("show")
+            $('.next').prop("disabled", true);
+            $('.previous').prop("disabled", false);
+          }
+        }
+    
+      })
+      $('.card-header').click(function(){
+        if($(this).hasClass('first-one')){
+          $('.previous').prop("disabled", true);
+          $('.next').prop("disabled", false);
+        }
+        if($(this).hasClass('second-one')){
+          $('.previous').prop("disabled", false);
+          $('.next').prop("disabled", false);
+        }
+        if($(this).hasClass('third-one')){
+          $('.previous').prop("disabled", false);
+          $('.next').prop("disabled", true);
+        }
+        if($(this).hasClass('collapsed')){
+          $(this).removeClass('collapsed')
+        }
+      })
 });
