@@ -4874,3 +4874,196 @@ header.white-navbar.navigation-sticky .search-icon:hover svg path{
   header.white-navbar.navigation-sticky .search-form{
     transition: 1s all;
   }
+  .content-first-fold{
+    position: absolute;
+    bottom: 5%;
+    font-weight: 700;
+    width: 100%;
+  }
+  .content-first-fold h1{
+    font-size: 5.5rem !important;
+    border-bottom: 0!important;
+    padding-bottom: 0!important;
+    color: #ffffff!important;
+    width: 50%;
+    margin-bottom: 1rem !important;
+  }
+  .content-first-fold p{
+    font-size: 20px;
+    color: #ffffff!important;
+    margin-bottom: 0.5rem!important ;
+  }
+  .content-first-fold .description p{
+    font-size: 22px;
+    width: 50%;
+    margin-bottom: 30px !important;
+  }
+  .content-first-fold .primary a, .hometo .primary a, .primary a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #00999A;
+    border: 1px solid #00999A;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: block;
+    width: fit-content;
+    &:hover{
+      background-color: var(--sys-primary-primary-hover);
+      border-color: var(--sys-primary-primary-hover);
+      transition: all 1s;
+    }
+  }
+  .content-first-fold a, .hometo a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: block;
+    width: fit-content;
+    &:hover{
+      background-color: rgba($color: #ffffff, $alpha: 0.3);
+      transition: all 1s;
+    }
+  }
+  .hometo a{
+color: #00999A;
+border: 1px solid #00999A;
+  }
+  section.first-fold .background:after{
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), rgba(0, 0, 0, .7) 50%);
+  }
+  .advantages{
+    background-color: #B0E4E4;
+  }
+  .advantages h1{
+    border-bottom: 0;
+    text-align: center;
+  }
+  .advantages h3{
+     font-family: 'DINProCondBold';
+    font-weight: 700;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 36px;
+   width: 80%;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 24px;
+  }
+  .advantages img{
+    width: auto;
+    height: 72px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .advantages a{
+    color: #101820;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 50px;
+  }
+  h2{
+    font-size: 26px!important;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-transform: unset;
+     font-family: 'DINProMedium';
+     line-height: 40px;
+     margin-top: 0!important;
+  }
+  h1{
+    border-bottom: 0;
+    padding-bottom: 0!important;
+  }
+  .hometo img{
+    height: 72px;
+  }
+  .advancing{
+background-color: #F5F6F6;
+  }
+  .advancing img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .image-container{
+    height: 400px;
+    position: relative;
+  }
+  .image-container p{
+    position: absolute;
+    bottom: 44px;
+    color: #fff!important;
+    text-transform: uppercase;
+    font-size: 50px;
+    width: 50%;
+    font-weight: 700;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 100%;
+  }
+  .advancing .primary a{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+  }
+
+
+  .accordion.width {
+    display: flex;
+  }
+  
+  .accordion.width .card {
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 1;
+    min-width: min-content;
+  }
+  
+  .accordion.width .card .card-header {
+    cursor: pointer;
+  }
+  
+  .accordion.width .card .card-header:not(.collapsed) {
+    pointer-events: none;
+  }
+  
+  .collapsing.width {
+    transition: width 0.35s ease;
+    height: auto;
+    width: 0;
+  }
+  .card-header:first-child{
+    border: none;
+    border-radius: 0;
+  }
+  .accordion-section .card{
+    border: none;
+  }
+
+  .accordion-section .card-header{
+    width: 152px;
+    height: 450px;
+    padding: 0;
+    &.collapsed{
+      img{filter: grayscale(1);}
+    }
+  }
+  .accordion-section .card-header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .accordion-section .card-body{
+    width: 40vw!important;
+  }

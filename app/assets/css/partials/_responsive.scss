@@ -77,6 +77,32 @@
     .white-paper-modal .modal-body{width: 100%;}
 }
 @media (min-width: 100px) and (max-width: 991px) {
+    .content-first-fold h1{
+        font-size: 36px!important;
+        width: 100%;
+    }
+    .content-first-fold p{
+        font-size: 16px;
+    }
+    .content-first-fold a, .hometo .primary a, .primary a{
+        margin-bottom: 15px;
+        width: 62%!important;
+        display: flex;
+    padding-right: 0;
+    padding-left: 0;
+    justify-content: center;
+    }
+    .hometo a{width: 62%;display: flex; padding-right: 0;padding-left: 0;justify-content: center;}
+    .content-first-fold .primary a, .hometo .primary a, .primary a{
+        display: flex;
+        padding-right: 0;
+        padding-left: 0;
+        justify-content: center;
+    }
+    .content-first-fold .description p{
+        font-size: 18px;
+    width: 100%;
+    }
     .white-paper-modal .modal-content{width: 90vw;
       
     }
