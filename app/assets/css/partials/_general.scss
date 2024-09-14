@@ -5121,3 +5121,35 @@ background-color: #F5F6F6;
   }
   footer{min-height: 80vh;}
   .flex-1{flex: 1;}
+  header.inside-page {
+    z-index: 11000;
+    background-color: #f5f6f6!important;
+    transition: background-color .5s ease;
+}
+header.inside-page li .nav-link{
+  color: var(--black)!important;
+}
+header.inside-page .search-icon svg path {
+  fill: var(--black)!important;
+}
+header.inside-page .btn-primary {
+  background-color: var(--sys-primary-primary);
+  border-color: var(--sys-primary-primary);
+  border-radius: 100px;
+  padding: 10px 24px;
+  color: var(--white);
+  transition: background-color .5s ease;
+}
+header.inside-page .top-nav a, header.inside-page .top-nav button {
+  color: var(--black);
+}
+header.inside-page .top-nav {
+  background-color: #F1F1F2;
+  transition: background-color .5s ease;
+}
+header.inside-page .search-form{
+  top: 200%;
+}
+.cost-calculator h1{
+  margin-bottom: 5px!important;
+}

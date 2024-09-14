@@ -77,6 +77,7 @@
     .white-paper-modal .modal-body{width: 100%;}
 }
 @media (min-width: 100px) and (max-width: 991px) {
+  
     .content-first-fold h1{
         font-size: 36px!important;
         width: 100%;
@@ -1495,6 +1496,21 @@
                 position: relative!important;
             }
         }
+    }
+    header.inside-page {
+        height: auto;
+    }
+    header.inside-page .search-form {
+        top: 100%;
+    }
+    header.inside-page .navbar-toggler .navbar-toggler-icon:before{
+        background-color: black;
+    }
+    header.inside-page  .navbar-toggler .navbar-toggler-icon{
+        background-color: black;
+    }
+    header.inside-page .navbar-toggler .navbar-toggler-icon:after{
+        background-color: black;
     }
 }
 
