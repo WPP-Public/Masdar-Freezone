@@ -77,7 +77,13 @@
     .white-paper-modal .modal-body{width: 100%;}
 }
 @media (min-width: 100px) and (max-width: 991px) {
-  
+    .main.inside{
+        padding-top: 150px;
+      }
+    .cost-calculator .next-btn, .cost-calculator .previous-btn{
+        flex: auto;
+        gap: 10px;
+    }
     .content-first-fold h1{
         font-size: 36px!important;
         width: 100%;
@@ -1512,6 +1518,47 @@
     header.inside-page .navbar-toggler .navbar-toggler-icon:after{
         background-color: black;
     }
+    header .navbar-nav li a{
+        color: black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+    }
+    header{
+        .horizontal-ul li{
+            margin-left: 1rem !important;
+            &:first-of-type{
+                margin-left: 0!important;
+            }
+        }
+        .dropdown-menu{
+            min-width: auto;
+        }
+      .dropdown-toggle{
+        padding:0!important;
+      }
+      }
+      .ar{
+        header{
+            .horizontal-ul li{
+                margin-right: 1rem !important;
+                &:first-of-type{
+                    margin-right: 0!important;
+                }
+            }
+          }
+      }
+      footer{
+        .col-lg-3{
+            margin-bottom: 3rem !important;
+        }
+        .bottom-footer{
+            p{
+                margin-bottom: 1rem !important;
+                text-align: center;
+            }
+        }
+      }
 }
 
 

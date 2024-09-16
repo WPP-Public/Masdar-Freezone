@@ -100,4 +100,59 @@ $( document ).ready(function() {
           $(this).removeClass('collapsed')
         }
       })
+   $('.cost-calculator .next-btn').click(function(){
+    $('html, body').animate({
+      scrollTop: $(".cost-calculator").offset().top
+  });
+        switch($(this).parents().eq(1).attr('id')) {
+          case 'v-pills-personal':
+            $('#v-pills-company-tab').click()
+            $('#v-pills-personal-tab').addClass('success')
+            break;
+          case 'v-pills-company':
+            $('#v-pills-license-tab').click()
+            $('#v-pills-company-tab').addClass('success')
+            break;
+          case 'v-pills-license':
+            $('#v-pills-leasing-tab').click()
+            $('#v-pills-license-tab').addClass('success')
+            break;
+          case 'v-pills-leasing':
+            $('#v-pills-summary-tab').click()
+            $('#v-pills-leasing-tab').addClass('success')
+              break;
+          default:
+        }
+   })
+   $('.cost-calculator .previous-btn').click(function(){
+    $('html, body').animate({
+      scrollTop: $(".cost-calculator").offset().top
+  });
+    switch($(this).parents().eq(1).attr('id')) {
+      case 'v-pills-company':
+        $('#v-pills-personal-tab').click()
+        $('#v-pills-personal-tab').removeClass('success')
+        break;
+      case 'v-pills-license':
+        $('#v-pills-company-tab').click()
+        $('#v-pills-company-tab').removeClass('success')
+        break;
+      case 'v-pills-leasing':
+        $('#v-pills-license-tab').click()
+        $('#v-pills-license-tab').removeClass('success')
+        break;
+      case 'v-pills-summary':
+        $('#v-pills-leasing-tab').click()
+        $('#v-pills-leasing-tab').removeClass('success')
+        break;
+      default:
+    }
+})
+$('.cost-calculator .form-check-input').click(function(){
+  $(this).closest(".tab-pane").find('.selected').removeClass('selected')
+  $(this).closest(".step-card-link").addClass('selected');
+})
+$('.view-details').click(function(){
+  $('.detailed-content').toggleClass('height-0')
+})
 });
