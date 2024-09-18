@@ -77,6 +77,14 @@
     .white-paper-modal .modal-body{width: 100%;}
 }
 @media (min-width: 100px) and (max-width: 991px) {
+    .faq-section h2 {
+        font-size: 3rem!important;}
+    .contact-section-1 .col-lg-6:first-child {
+        margin-bottom: 1.5rem;
+    }
+    ul.contact-list li {
+        margin-bottom: 1.5rem;
+      }
     .main.inside{
         padding-top: 150px;
       }
