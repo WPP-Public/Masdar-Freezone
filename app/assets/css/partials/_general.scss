@@ -5930,3 +5930,89 @@ button.accordion-button:focus {
 .ar .life-sciences-wrapper .swiper-button.next svg {
   transform: scaleX(-1);
 }
+
+
+// coming soon
+.coming-soon{
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+}
+.coming-soon h1 {
+  font-size: 5.5rem!important;
+  border-bottom: 0!important;
+  padding-bottom: 0!important;
+  color: #fff!important;
+  width: 50%;
+  margin-bottom: 1rem!important;
+  margin-top: 4rem;
+}
+.coming-soon p{
+  font-size: 20px;
+  color: #ffffff!important;
+  margin-bottom: 0.5rem!important ;
+}
+.coming-soon .description p{
+  font-size: 22px;
+  width: 50%;
+  margin-bottom: 30px !important;
+}
+
+
+.coming-soon-container .mail-call {
+  display: flex;
+}
+.coming-soon-container .mail-call p:first-child {
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  
+  text-align: left;
+
+  }
+  .coming-soon-container .mail-call p, .coming-soon-container .mail-call a {
+    font-family: DIN Pro;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+}
+
+.coming-soon-container {
+  position: relative;
+background-image: url('../../../assets/images/dynamic/hero.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  z-index: 1;
+}
+.coming-soon-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../assets/images/dynamic/hero.png');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%); /* Make the background image grayscale */
+  z-index: -2; /* Behind the gradient overlay */
+}
+
+.coming-soon-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+background: #00999A;
+background:linear-gradient(180deg, rgb(0, 153, 154), #00999adb 46.11%)!important;
+  z-index: -1; /* On top of the grayscale image but behind the text */
+}
+
+
+
