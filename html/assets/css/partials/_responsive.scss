@@ -1650,3 +1650,22 @@
         }
     }
 }
+@media (min-width: 100px) and (max-width: 991px) {
+    header .navbar-collapse {
+        font-size: 1.125rem !important;
+        line-height: 2;
+        text-align: center !important;
+    }
+header .navbar-collapse .popover, header .navbar-collapse .popover-body, header .navbar-collapse .text-white, header .navbar-collapse footer .bottom-footer p {
+        color: var(--sys-secondary-secondary) !important;
+        transition-delay: 3s;
+        text-align: center;
+    }
+
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        align-items: center;
+    }
+}
