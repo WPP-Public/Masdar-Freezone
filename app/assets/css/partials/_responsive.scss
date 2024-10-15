@@ -1661,7 +1661,14 @@ header .navbar-collapse .popover, header .navbar-collapse .popover-body, header 
         transition-delay: 3s;
         text-align: center;
     }
-
+    ul.navbar-nav.mb-2.mb-lg-0.mx-auto.text-center a.text-white {
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+    }
+    button.btn.btn-secondary.dropdown-toggle.p-0.bg-transparent.border-0.text-white {
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+    }
 }
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav {
