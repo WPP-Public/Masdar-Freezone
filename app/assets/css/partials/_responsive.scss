@@ -1550,8 +1550,6 @@
     }
     header .navbar-nav li a{
         color: black;
-        padding-top: 10px;
-        padding-bottom: 10px;
         display: block;
     }
     header{
@@ -1669,10 +1667,22 @@ header .navbar-collapse .popover, header .navbar-collapse .popover-body, header 
         padding-top: 1rem!important;
         padding-bottom: 1rem!important;
     }
+    ul.dropdown-menu {
+        text-align: center;
+      }
 }
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav {
         flex-direction: row;
         align-items: center;
+    }
+    a#newsDropdown {
+        width: 115%;
+      }
+      a#industryClustersDropdown {
+        width: 115%;
+      }
+      header .dropend:hover>.dropdown-menu {
+        margin-left: 1.77rem;
     }
 }

@@ -117,77 +117,64 @@
                     </div>
                     <div class="col-2 col-lg-7 my-auto">
                         <nav class="navbar navbar-expand-lg w-100 justify-content-end">
-                            <button class="navbar-toggler pt-0 pe-0 pe-lg-3" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
+                            <!-- Toggler Button for Mobile -->
+                            <button class="navbar-toggler pt-0 pe-0 pe-lg-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse text-start" id="navbarSupportedContent">
+                       
+                            <!-- Collapsible Content -->
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav mb-2 mb-lg-0 mx-auto text-center">
-                                    <li>
-                                        <a href="about.html" class="text-white">
-                                            About
+                                    <!-- Single Item -->
+                                    <li class="nav-item">
+                                        <a href="about.html" class="nav-link text-white">About</a>
+                                    </li>
+                       
+                                    <!-- Dropdown Item with Multi-Level Dropdowns -->
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" id="exploreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Explore
                                         </a>
+                                        <ul class="dropdown-menu" aria-labelledby="exploreDropdown">
+                                            <!-- Submenu with Dropdown -->
+                                            <li class="dropend">
+                                                <a class="dropdown-item dropdown-toggle" href="#" id="industryClustersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Industry Clusters
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="industryClustersDropdown">
+                                                    <li><a class="dropdown-item" href="#">Life Sciences</a></li>
+                                                    <li><a class="dropdown-item" href="#">AI</a></li>
+                                                    <li><a class="dropdown-item" href="#">Energy</a></li>
+                                                    <li><a class="dropdown-item" href="#">Smart Mobility</a></li>
+                                                    <li><a class="dropdown-item" href="#">Agri-Tech</a></li>
+                                                    <li><a class="dropdown-item" href="#">Space Tech</a></li>
+                                                </ul>
+                                            </li>
+                       
+                                            <!-- Another Submenu -->
+                                            <li class="dropend">
+                                                <a class="dropdown-item dropdown-toggle" href="#" id="newsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    News
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="newsDropdown">
+                                                    <li><a class="dropdown-item" href="live.html">Blog Post</a></li>
+                                                </ul>
+                                            </li>
+                       
+                                            <!-- Simple Link Inside Dropdown -->
+                                            <li><a class="dropdown-item" href="#">Events</a></li>
+                                        </ul>
                                     </li>
-                                    <li class="dropdown nav-link  d-flex flex-column">
-                                            <button
-                                                class="btn btn-secondary dropdown-toggle p-0 bg-transparent border-0 text-white"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Explore
-                                            </button>
-                                            <ul class="dropdown-menu text-white text-center text-lg-start">
-                                                <li class="dropend">
-                                                    <a class="nav-link dropdown-toggle text-white ms-2" href="#"
-                                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                        Industry Clusters
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item text-white"
-                                                                href="#">Life Sciences</a></li>
-                                                        <li><a class="dropdown-item text-white"
-                                                                href="#">AI</a></li>
-                                                                <li><a class="dropdown-item text-white"
-                                                                    href="#">Energy</a></li>
-                                                                    <li><a class="dropdown-item text-white"
-                                                                        href="#">Smart Mobility</a></li>
-                                                                        <li><a class="dropdown-item text-white"
-                                                                            href="#">Agri-Tech</a></li>
-                                                                            <li><a class="dropdown-item text-white"
-                                                                                href="#">Space Tech</a></li>
-            
-
-                                                    </ul>
-                                                </li>
-                                                <li class="dropend">
-                                                    <a class="nav-link dropdown-toggle text-white ms-2" href="#"
-                                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                        News
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item text-white"
-                                                                href="live.html">Blog Post</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a class=" text-white ms-2" href="#"
-                                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                        Events
-                                                    </a>
-                                           
-                                                </li>
-
-                                            </ul>
+                       
+                                    <!-- Another Single Item -->
+                                    <li class="nav-item">
+                                        <a href="about.html" class="nav-link text-white">Contact Us</a>
                                     </li>
-                                    <li>
-                                        <a href="about.html" class="text-white">
-                                            Contact us
-                                        </a>
-                                    </li>
-
                                 </ul>
+                       
+                                <!-- Button and Divider for Mobile View -->
                                 <div class="d-lg-none text-center">
-                                    <a href="#" target="_blank" class="btn btn-primary">Cost
-                                        Calculator</a>
+                                    <a href="#" target="_blank" class="btn btn-primary">Cost Calculator</a>
                                 </div>
                                 <hr class="d-lg-none w-90 mx-auto">
                             </div>
