@@ -4975,15 +4975,13 @@ border: 1px solid #00999A;
     font-weight: 500;
     margin-top: 50px;
   }
-  h2{
-    font-size: 26px!important;
-    font-weight: 500;
-    margin-bottom: 30px;
-    text-transform: unset;
-     font-family: 'DINProMedium';
-     line-height: 40px;
-     margin-top: 0!important;
-  }
+  h2 {
+    font-size: 3rem !important;
+    line-height: 1 !important;
+    text-transform: uppercase !important;
+    color: #1b313b !important;
+    font-family: 'DINProCondBold'!important;
+}
   h1{
     border-bottom: 0;
     padding-bottom: 0!important;
@@ -6090,3 +6088,11 @@ header.navigation-sticky .row.px-5.justify-content-between.pt-1.my-3.my-lg-0 {
   background-color: #F5F6F6;
 }
 
+
+h2 {
+  font-size: 3rem !important;
+  line-height: 1 !important;
+  text-transform: uppercase !important;
+  color: #1b313b !important;
+  font-family: 'DINProCondBold'!important;
+}
