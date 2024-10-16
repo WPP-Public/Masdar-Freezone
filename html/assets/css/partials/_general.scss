@@ -6192,5 +6192,13 @@ section.benefits.py-5 .bg-unique-2 {
 }
 
 
+.logo-container {
+  text-align: center;
+}
 
-
+.logo-container img {
+  max-width: 100%; /* Ensure the images scale responsively */
+  height: auto;
+  object-fit: contain; /* Ensures that the image fits inside the container without distortion */
+  padding: 10px;
+}
