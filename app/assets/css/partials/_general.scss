@@ -6096,3 +6096,101 @@ h2 {
   color: #1b313b !important;
   font-family: 'DINProCondBold'!important;
 }
+
+
+
+// cards
+.benefit-card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  min-height: 545px;
+}
+
+.icon i {
+  font-size: 30px;
+  color: white;
+}
+
+
+.benefit-card .card-title {
+  font-size: 2.5rem!important;
+  font-weight: 700;
+  line-height: 36px!important;
+  text-align: left;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+
+}
+.benefit-card .card-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Unique background colors for each card */
+
+
+section.benefits.py-5 .bg-unique-2 {
+  background-color: #F5F6F6;
+  border: 2px solid #00999a!important;
+}
+.bg-unique-1 {
+  background-color: #00999A; /* Replace with Figma color */
+}
+.bg-unique-3 {
+  background-color: #3B6A80; /* Replace with Figma color */
+}
+
+.bg-unique-4 {
+  background-color: #D4D1D0; /* Replace with Figma color */
+}
+
+// bg-unique-1
+.bg-unique-1 h5.card-title {
+  color:#fff;
+  font-size:2.5rem!important;
+}
+
+.bg-unique-1 p.card-text {
+  color: #fff !important;
+  font-size:2.5rem;
+  line-height: 1.5rem;
+}
+// bg-unique-2
+.bg-unique-2 h5.card-title {
+  color:#343B41;
+  font-size:2.5rem!important;
+}
+
+.bg-unique-2 p.card-text {
+  color: #343B41 !important;
+  font-size:2.5rem;
+  line-height: 1.5rem;
+}
+// bg-unique-3
+.bg-unique-3 h5.card-title {
+  color:#fff;
+  font-size:2.5rem!important;
+}
+
+.bg-unique-3 p.card-text {
+  color: #ffffff !important;
+  font-size:2.5rem;
+  line-height: 1.5rem;
+}
+// bg-unique-4
+.bg-unique-4 h5.card-title {
+  color:#1B313B;
+  font-size:2.5rem!important;
+}
+
+.bg-unique-4 p.card-text {
+  color: #1B313B !important;
+  font-size:2.5rem;
+  line-height: 1.5rem;
+}
+
+
+
+

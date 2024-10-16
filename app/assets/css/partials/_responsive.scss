@@ -1687,9 +1687,11 @@ header .navbar-collapse .popover, header .navbar-collapse .popover-body, header 
 
       a#exploreDropdown {
         font-size: 1.5rem!important;
+        font-weight: bold;
     }
     header .navbar-nav li {
         font-size: 1.5rem!important;
+        font-weight: bold;
 
     }
     a#industryClustersDropdown, a#newsDropdown {
@@ -1716,3 +1718,7 @@ header .navbar-collapse .popover, header .navbar-collapse .popover-body, header 
         margin-left: 1.77rem;
     }
 }
+@media (min-width: 100px) and (max-width: 768px) {
+.benefit-card {
+    min-height: auto;
+}}
