@@ -1704,7 +1704,13 @@ header .navbar-collapse .popover, header .navbar-collapse .popover-body, header 
 
         min-height: 200px!important;
     }
-
+    .row.text-left {
+        flex-direction: column-reverse;
+    }
+    .custom-grid-container.left {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav {

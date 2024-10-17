@@ -289,12 +289,13 @@
     font-size: 2rem;
 }
 
-.section-description {
+p.section-description {
+    font-family: 'DIN Pro';
     font-size: 1.1rem;
-    line-height: 1.7;
-    color: #333; /* Adjust color to match your design */
+    font-weight: 500;
+    line-height: 1.7rem;
+    text-align: left;
 }
-
 .image-container {
     position: relative;
 }
@@ -306,20 +307,27 @@
 }
 
 .btn-outline-primary {
-    border-color: #00d1b2;
-    color: #00d1b2;
+    color: #00999A;
+    background-color: transparent;
+    border: 1px solid #00999A;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
 }
 
 .btn-outline-primary:hover {
-    background-color: #00d1b2;
-    color: #fff;
+    color: white;
+    background-color: #00999A;
+    border: 1px solid #00999A;
 }
 
          </style>
 <h1>Boostrap 5</h1>
 <section class="content-section py-5">
     <div class="container">
-        <div class="row align-items-center">
+        <!-- remove align-items-center -->
+        <div class="row">
             <!-- Image/Video Column -->
             <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
                 <div class="image-container">
@@ -333,12 +341,19 @@
             </div>
 
             <!-- Text Content Column -->
-            <div class="col-lg-6 col-md-12">
+             <!-- add class -->
+            <div class="col-lg-6 col-md-12 content-bootstrap">
+                <!-- add div for title and paragraph -->
+                 <div class="title-paragraph-content">
+                 
                 <h2 class="section-title">Life Sciences</h2>
                 <p class="section-description">
                     The Masdar City Free Zone Life Sciences Cluster in Abu Dhabi is a rapidly expanding hub for life sciences and biotechnology, supported by the region’s most advanced R&D institutions, leading CROs, and government-backed initiatives from the Department of Health Abu Dhabi (DoH) and the Abu Dhabi Investment Office. 
                     This cluster provides unparalleled opportunities for collaboration, innovation, and growth within a strategically located free zone in Abu Dhabi, making it an ideal choice for businesses involved in life sciences and BioTech in Abu Dhabi, and beyond.
                 </p>
+                   
+            </div>
+            <div class="button-content">
                 <a href="#" class="btn btn-outline-primary mt-3">Learn More</a>
             </div>
         </div>
@@ -347,17 +362,26 @@
 
 <section class="content-section py-5">
     <div class="container">
-        <div class="row align-items-center">
+          <!-- remove align-items-center -->
+           <!-- add class -->
+        <div class="row text-left">
 
             <!-- Text Content Column -->
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-6 col-md-12 content-bootstrap">
+                <!-- add div for title and paragraph -->
+                 <div class="title-paragraph-content">
                 <h2 class="section-title">Life Sciences</h2>
                 <p class="section-description">
                     The Masdar City Free Zone Life Sciences Cluster in Abu Dhabi is a rapidly expanding hub for life sciences and biotechnology, supported by the region’s most advanced R&D institutions, leading CROs, and government-backed initiatives from the Department of Health Abu Dhabi (DoH) and the Abu Dhabi Investment Office. 
                     This cluster provides unparalleled opportunities for collaboration, innovation, and growth within a strategically located free zone in Abu Dhabi, making it an ideal choice for businesses involved in life sciences and BioTech in Abu Dhabi, and beyond.
                 </p>
+                </div>
+                <div class="button-content">
                 <a href="#" class="btn btn-outline-primary mt-3">Learn More</a>
+                </div>
             </div>
+            
+
 
                         <!-- Image/Video Column -->
                         <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
@@ -371,7 +395,7 @@
                             </div>
                         </div>
         </div>
-    </div>
+    </div></div>
 </section>
 
         <!-- end boostrap demo -->
@@ -394,7 +418,7 @@
 .flex-row {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+  
 }
 
 /* Flexbox for the image column */
@@ -427,39 +451,56 @@
 }
 
 /* Paragraph styling */
-.flex-description {
+    .flex-description {
+    font-family: 'DIN Pro';
     font-size: 1.1rem;
-    line-height: 1.7;
+    font-weight: 500;
+    line-height: 1.7rem;
+    text-align: left;
     color: #333;
 }
 
+
 /* Button styling */
-.flex-btn {
+
+.button-flex a.flex-btn {
+    color: #00999A;
+    background-color: transparent;
+    border: 1px solid #00999A;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
     display: inline-block;
-    background-color: #007bff;
+}
+
+.button-flex a.flex-btn:hover {
     color: white;
+    background-color: #00999A;
+    border: 1px solid #00999A;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 1.5rem;
 }
 
-.flex-btn:hover {
-    background-color: #0056b3;
-}
 
 /* Flexbox Responsive Styling */
 @media (max-width: 992px) {
     .flex-image, .flex-text {
         flex: 1 1 100%; /* Full-width columns on medium and small screens */
-        text-align: center; /* Center text on smaller screens */
+  
     }
-    
-    .flex-text {
-        margin-top: 20px; /* Adds spacing between image and text on smaller screens */
-    }
+    .flex-row.left {
+    flex-direction: column-reverse!important;
+    flex-wrap: nowrap;
 }
-
+    
+}
+h2.flex-title {
+    margin-top: 0!important;
+    margin-bottom: 1.5rem!important;
+}
            </style>
 
 <section class="flex-content-section py-5">
@@ -476,11 +517,16 @@
 
             <!-- Text Content Column -->
             <div class="flex-text">
+                       <!-- add div for title and paragraph -->
+                       <div class="title-paragraph-content">
                 <h2 class="flex-title">Life Sciences</h2>
                 <p class="flex-description">
                     The Masdar City Free Zone Life Sciences Cluster in Abu Dhabi is a rapidly expanding hub for life sciences and biotechnology, supported by the region’s most advanced R&D institutions, leading CROs, and government-backed initiatives from the Department of Health Abu Dhabi (DoH) and the Abu Dhabi Investment Office. This cluster provides unparalleled opportunities for collaboration, innovation, and growth within a strategically located free zone in Abu Dhabi, making it an ideal choice for businesses involved in life sciences and BioTech in Abu Dhabi, and beyond.
                 </p>
+                </div>
+                <div class="button-flex">
                 <a href="#" class="flex-btn btn-primary">Learn More</a>
+            </div>
             </div>
         </div>
     </div>
@@ -488,14 +534,19 @@
 
 <section class="flex-content-section py-5">
     <div class="flex-container">
-        <div class="flex-row">
+        <div class="flex-row left">
             <!-- Text Content Column -->
             <div class="flex-text">
+               <!-- add div for title and paragraph -->
+             <div class="title-paragraph-content">
                 <h2 class="flex-title">Life Sciences</h2>
                 <p class="flex-description">
                     The Masdar City Free Zone Life Sciences Cluster in Abu Dhabi is a rapidly expanding hub for life sciences and biotechnology, supported by the region’s most advanced R&D institutions, leading CROs, and government-backed initiatives from the Department of Health Abu Dhabi (DoH) and the Abu Dhabi Investment Office. This cluster provides unparalleled opportunities for collaboration, innovation, and growth within a strategically located free zone in Abu Dhabi, making it an ideal choice for businesses involved in life sciences and BioTech in Abu Dhabi, and beyond.
                 </p>
+                </div>
+                <div class="button-flex">
                 <a href="#" class="flex-btn btn-primary">Learn More</a>
+                </div>
             </div>
 
             <!-- Image/Video Column -->
@@ -537,39 +588,54 @@
 
 /* Paragraph styling */
 .grid-description {
+    font-family: 'DIN Pro';
     font-size: 1.1rem;
-    line-height: 1.7;
+    font-weight: 500;
+    line-height: 1.7rem;
+    text-align: left;
     color: #333;
 }
 
 /* Button styling */
-.grid-btn {
+
+
+.grid-btn  {
+    color: #00999A;
+    background-color: transparent;
+    border: 1px solid #00999A;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
     display: inline-block;
-    background-color: #007bff;
+}
+
+.grid-btn:hover  {
     color: white;
+    background-color: #00999A;
+    border: 1px solid #00999A;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 1.5rem;
 }
 
-.grid-btn:hover {
-    background-color: #0056b3;
-}
 
 /* Responsive Styling */
 @media (max-width: 992px) {
     .grid-text {
-        text-align: center; /* Center text on smaller screens */
         margin-top: 20px; /* Adds spacing between image and text on smaller screens */
     }
+    .row.left {
+    flex-direction: column-reverse;
+}
 }
 
            </style>
 <h1>Boostrap Grid Layout</h1>
 <section class="grid-content-section py-5">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row">
             <!-- Image/Video Column -->
             <div class="col-lg-6 col-md-12 mb-4 mb-lg-0 grid-image">
                 <img src="assets/images/dynamic/SectionImage.png" alt="Life Sciences" class="img-fluid grid-img-responsive">
@@ -581,26 +647,36 @@
 
             <!-- Text Content Column -->
             <div class="col-lg-6 col-md-12 grid-text">
+                   <!-- add div for title and paragraph -->
+             <div class="title-paragraph-content">
                 <h2 class="grid-title">Life Sciences</h2>
                 <p class="grid-description">
                     The Masdar City Free Zone Life Sciences Cluster in Abu Dhabi is a rapidly expanding hub for life sciences and biotechnology, supported by the region’s most advanced R&D institutions, leading CROs, and government-backed initiatives from the Department of Health Abu Dhabi (DoH) and the Abu Dhabi Investment Office. This cluster provides unparalleled opportunities for collaboration, innovation, and growth within a strategically located free zone in Abu Dhabi, making it an ideal choice for businesses involved in life sciences and BioTech in Abu Dhabi, and beyond.
                 </p>
+                </div>
+                <div class="button-grid">
                 <a href="#" class="grid-btn btn-primary">Learn More</a>
+                </div>
             </div>
         </div>
     </div>
 </section>
 <section class="grid-content-section py-5">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row left">
 
             <!-- Text Content Column -->
             <div class="col-lg-6 col-md-12 grid-text">
+                                <!-- add div for title and paragraph -->
+             <div class="title-paragraph-content">
                 <h2 class="grid-title">Life Sciences</h2>
                 <p class="grid-description">
                     The Masdar City Free Zone Life Sciences Cluster in Abu Dhabi is a rapidly expanding hub for life sciences and biotechnology, supported by the region’s most advanced R&D institutions, leading CROs, and government-backed initiatives from the Department of Health Abu Dhabi (DoH) and the Abu Dhabi Investment Office. This cluster provides unparalleled opportunities for collaboration, innovation, and growth within a strategically located free zone in Abu Dhabi, making it an ideal choice for businesses involved in life sciences and BioTech in Abu Dhabi, and beyond.
                 </p>
+                </div>
+                <div class="button-grid">
                 <a href="#" class="grid-btn btn-primary">Learn More</a>
+                </div>
             </div>
 
                         <!-- Image/Video Column -->
@@ -634,7 +710,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    align-items: center;
+
 }
 
 /* Responsive image/video styling */
@@ -654,31 +730,40 @@
 
 /* Paragraph styling */
 .custom-grid-description {
+    font-family: 'DIN Pro';
     font-size: 1.1rem;
-    line-height: 1.7;
+    font-weight: 500;
+    line-height: 1.7rem;
+    text-align: left;
     color: #333;
 }
 
 /* Button styling */
-.custom-grid-btn {
+
+.custom-grid-btn  {
+    color: #00999A;
+    background-color: transparent;
+    border: 1px solid #00999A;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
     display: inline-block;
-    background-color: #007bff;
+}
+
+.custom-grid-btn:hover  {
     color: white;
+    background-color: #00999A;
+    border: 1px solid #00999A;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 1.5rem;
 }
-
-.custom-grid-btn:hover {
-    background-color: #0056b3;
-}
-
 /* Responsive for small screens */
 @media (max-width: 992px) {
     .custom-grid-container {
         grid-template-columns: 1fr; /* Single column for small screens */
-        text-align: center;
     }
 
     .custom-grid-text {
@@ -701,27 +786,36 @@
 
         <!-- Text Content Column -->
         <div class="custom-grid-text">
+            <div class="custom-grid-content">
             <h2 class="custom-grid-title">Life Sciences</h2>
             <p class="custom-grid-description">
                 The Masdar City Free Zone Life Sciences Cluster in Abu Dhabi is a rapidly expanding hub for life sciences and biotechnology, supported by the region’s most advanced R&D institutions, leading CROs, and government-backed initiatives from the Department of Health Abu Dhabi (DoH) and the Abu Dhabi Investment Office. This cluster provides unparalleled opportunities for collaboration, innovation, and growth within a strategically located free zone in Abu Dhabi, making it an ideal choice for businesses involved in life sciences and BioTech in Abu Dhabi, and beyond.
             </p>
-            <a href="#" class="custom-grid-btn">Learn More</a>
+        </div>
+        <div class="custom-grid-button">
+         <a href="#" class="custom-grid-btn">Learn More</a></div>
         </div>
     </div>
 </section>
 
 
 <section class="custom-grid-content-section py-5">
-    <div class="custom-grid-container">
+    <div class="custom-grid-container left">
     
 
         <!-- Text Content Column -->
         <div class="custom-grid-text">
+            <div class="custom-grid-content ">
             <h2 class="custom-grid-title">Life Sciences</h2>
             <p class="custom-grid-description">
                 The Masdar City Free Zone Life Sciences Cluster in Abu Dhabi is a rapidly expanding hub for life sciences and biotechnology, supported by the region’s most advanced R&D institutions, leading CROs, and government-backed initiatives from the Department of Health Abu Dhabi (DoH) and the Abu Dhabi Investment Office. This cluster provides unparalleled opportunities for collaboration, innovation, and growth within a strategically located free zone in Abu Dhabi, making it an ideal choice for businesses involved in life sciences and BioTech in Abu Dhabi, and beyond.
             </p>
+            </div>
+            
+        <div class="custom-grid-button">
             <a href="#" class="custom-grid-btn">Learn More</a>
+            </div>
+
         </div>
 
         <!-- Image/Video Column -->

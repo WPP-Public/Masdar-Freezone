@@ -4997,8 +4997,10 @@ background-color: #F5F6F6;
     height: 100%;
     object-fit: cover;
   }
+
+  // remove height
   .image-container{
-    height: 400px;
+
     position: relative;
   }
   .image-container p{
@@ -6212,4 +6214,47 @@ section.benefits.py-5 .bg-unique-2 {
 .card.benefit-card.bg-unique-2.text-white.h-100 {
   background-color: #F5F6F6!important;
   border: 2px solid #00999a!important;
+}
+
+// new component section bootstrap
+h2.section-title {
+  margin-top: 0!important;
+  margin-bottom: 1.5rem !important;
+}
+.col-lg-6.col-md-12.content-bootstrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+// new component section flex box
+
+h2.flex-title {
+  margin-top: 0!important;
+}
+.flex-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2.grid-title{
+  margin-top: 0!important;
+  margin-bottom: 1.5rem !important;
+}
+.grid-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2.custom-grid-title{
+  margin-top: 0!important;
+  margin-bottom: 1.5rem !important;
+}
+.custom-grid-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
