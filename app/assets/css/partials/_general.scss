@@ -6239,22 +6239,84 @@ h2.flex-title {
   justify-content: space-between;
 }
 
+/* Section styling */
+
+
+/* Image styling */
+.grid-img-responsive {
+width: 100%;
+height: auto;
+border-radius: 8px;
+object-fit: cover;
+}
+
+/* Title styling */
+.grid-title {
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 1rem;
+}
+
+/* Paragraph styling */
+.grid-description {
+font-family: 'DIN Pro';
+font-size: 1.1rem;
+font-weight: 500;
+line-height: 1.7rem;
+text-align: left;
+color: #333;
+}
+
+/* Button styling */
+
+
+.grid-btn  {
+color: #00999A;
+background-color: transparent;
+border: 1px solid #00999A;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+margin-top: 1.5rem;
+display: inline-block;
+}
+
+.grid-btn:hover  {
+color: white;
+background-color: #00999A;
+border: 1px solid #00999A;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+margin-top: 1.5rem;
+}
+
+
+/* Responsive Styling */
+@media (max-width: 992px) {
+.grid-text {
+margin-top: 20px; /* Adds spacing between image and text on smaller screens */
+}
+.row.left {
+flex-direction: column-reverse;
+}
+}
 h2.grid-title{
-  margin-top: 0!important;
-  margin-bottom: 1.5rem !important;
+margin-top: 0!important;
+margin-bottom: 1.5rem !important;
 }
 .grid-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 h2.custom-grid-title{
-  margin-top: 0!important;
-  margin-bottom: 1.5rem !important;
+margin-top: 0!important;
+margin-bottom: 1.5rem !important;
 }
 .custom-grid-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
