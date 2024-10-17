@@ -1700,7 +1700,10 @@ header .navbar-collapse .popover, header .navbar-collapse .popover-body, header 
         color: var(--sys-secondary-secondary) !important;
     }
 
+    .benefit-card {
 
+        min-height: 200px!important;
+    }
 
 }
 @media (min-width: 992px) {
