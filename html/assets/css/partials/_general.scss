@@ -6202,3 +6202,7 @@ section.benefits.py-5 .bg-unique-2 {
   object-fit: contain; /* Ensures that the image fits inside the container without distortion */
   padding: 10px;
 }
+.card.benefit-card.bg-unique-2.text-white.h-100 {
+  background-color: #F5F6F6!important;
+  border: 2px solid #00999a!important;
+}
