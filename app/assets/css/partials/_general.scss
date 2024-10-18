@@ -5706,6 +5706,9 @@ color: var(--sys-primary-primary) !important;
         width: 148px!important;
     }
     }
+    .logo-grid {
+      justify-content: center;
+  }
   }
   
   .life-sciences-wrapper{
@@ -5899,7 +5902,11 @@ button.accordion-button:focus {
 }
   }
 
-
+  .logo-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
   @media (min-width: 992px) {
     .ar .life-sciences-wrapper .swiper-slide.swiper-slide-active {
       border-left: 2px solid #101820;
