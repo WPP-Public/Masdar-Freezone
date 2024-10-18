@@ -6427,3 +6427,13 @@ img.img-fluid.new-image-grid {
 .new-text-grid h2 {
   font-size: 2.5rem!important;
 }}
+
+.new-text-grid p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* Number of lines to display */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
