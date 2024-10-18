@@ -5761,7 +5761,7 @@ button.accordion-button.collapsed {
   line-height: 36px;
   text-align: left;
   text-transform: uppercase;
-  color: #00999A;
+  color: #00999A!important;
   padding: 0;
   background-color: transparent;
   box-shadow: none !important;
@@ -5773,7 +5773,7 @@ button.accordion-button:focus {
   line-height: 36px;
   text-align: left;
   text-transform: uppercase;
-  color: #00999A;
+  color: #00999A!important;
   padding: 0;
   background-color: transparent;
   box-shadow: none !important;
@@ -5785,7 +5785,7 @@ button.accordion-button:focus {
   line-height: 36px;
   text-align: left;
   text-transform: uppercase;
-  color: #00999A;
+  color: #00999A!important;
   padding: 0;
   background-color: transparent;
   box-shadow: none !important;
@@ -6430,10 +6430,19 @@ img.img-fluid.new-image-grid {
 
 .new-text-grid p {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp:4;
   /* Number of lines to display */
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: normal;
+}
+
+.new-text-grid p {
+
+  display: -webkit-box; /* For WebKit browsers */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height:7.5em;
 }
