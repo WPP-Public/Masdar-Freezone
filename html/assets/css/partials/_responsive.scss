@@ -1685,6 +1685,13 @@ header .navbar-collapse .popover, header .navbar-collapse .popover-body, header 
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .pdf-doc-list a {
+        display: inline-block;
+      }
+      .pdf-doc-link a {
+        display: inline-block;
+      }
 }
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav {

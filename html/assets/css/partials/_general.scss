@@ -6331,3 +6331,62 @@ justify-content: space-between;
 ul.nolist {
   list-style-type: none;
 }
+
+.container.pdf-doc-list a {
+  font-family: DIN Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #101820;
+}
+.pdf-doc-list a {
+
+  position: relative;
+  padding-left: 30px; /* Creates space for the icon */
+  text-indent: 0; /* No indentation on the first line */
+}
+
+.pdf-doc-list a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;  /* Adjust width for icon */
+  height: 20px; /* Adjust height for icon */
+  background-image: url('../../../assets/images/dynamic/PDF-icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pdf-doc-list div {
+  padding: 4px 0;
+}
+
+.container.pdf-doc-link a {
+  font-family: DIN Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #101820;
+}
+.pdf-doc-link a {
+
+  position: relative;
+  padding-left: 30px; /* Creates space for the icon */
+  text-indent: 0; /* No indentation on the first line */
+}
+
+.pdf-doc-link a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;  /* Adjust width for icon */
+  height: 20px; /* Adjust height for icon */
+  background-image: url('../../../assets/images/dynamic/PDF-icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
