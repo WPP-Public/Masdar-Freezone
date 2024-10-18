@@ -1670,35 +1670,9 @@ header .navbar-collapse .popover, header .navbar-collapse .popover-body, header 
     ul.dropdown-menu {
         text-align: center;
       }
-      .navbar-nav .dropdown-menu {
-        display: block !important;
-        opacity: 1 !important;
-        visibility: visible !important;
-      }
-    
-      /* Optional: Prevent the dropdown toggler arrow from rotating */
-      .navbar-nav .dropdown-toggle::after {
-        transform: none !important;
-        display: none!important;
-      }
+   
 
 
-
-
-      a#exploreDropdown {
-        font-size: 1.5rem!important;
-        font-weight: bold;
-    }
-    header .navbar-nav li {
-        font-size: 1.5rem!important;
-        font-weight: bold;
-
-    }
-    a#industryClustersDropdown, a#newsDropdown {
-        font-size: 1rem !important;
-        font-weight: bold;
-        color: var(--sys-secondary-secondary) !important;
-    }
 
     .benefit-card {
 
