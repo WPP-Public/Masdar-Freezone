@@ -6397,9 +6397,8 @@ img.img-fluid.new-image-grid {
   object-fit: cover;
 }
 .new-text-grid p {
-  font-family: 'DIN Pro'!important;
+  font-family: 'DINProBold';
   font-size: 1.1rem!important;
-  font-weight: 500!important;
   line-height: 1.7rem!important;
   text-align: left!important;
   color: #333!important;
@@ -6445,4 +6444,16 @@ img.img-fluid.new-image-grid {
   overflow: hidden;
   text-overflow: ellipsis;
   max-height:7.5em;
+}
+header ul {
+  padding-left: 0!important;
+}
+h1 {
+  opacity: 1!important;
+}
+section#section-1 {
+  padding-top: 3rem !important;
+}
+section:last-child {
+  padding-bottom: 3rem!important;
 }

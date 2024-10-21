@@ -1692,8 +1692,32 @@ header .navbar-collapse .popover, header .navbar-collapse .popover-body, header 
       .pdf-doc-link a {
         display: inline-block;
       }
+      li.nav-item:not(:last-child)::after {
+        content: '';
+        display: block;
+        width: 32px;
+        height: 2px;
+        background-color: #C4D4DC;
+        margin: 20px auto;
+    }
+    li.nav-item:last-child {
+        margin-bottom: 20px;
+    }
+    header a.btn.btn-primary.text-black {
+        color: white!important;
+    }
+  
+    header.inside-page li .nav-link {
+        color: #00999A !important;
+        font-family: 'DINProBold';
+    
+    }
 }
 @media (min-width: 992px) {
+    ul.dropdown-menu.show li {
+        margin-left: 0.5rem!important;
+        margin-right: 0.5rem!important;
+    }
     .navbar-expand-lg .navbar-nav {
         flex-direction: row;
         align-items: center;
