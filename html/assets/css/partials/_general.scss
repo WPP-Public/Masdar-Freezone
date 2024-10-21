@@ -5728,7 +5728,7 @@ color: var(--sys-primary-primary) !important;
     video {
       margin-top: 1rem !important;
       width: 100%;
-      margin-bottom: 3rem !important;
+      margin-bottom: 1rem !important;
     }
     .grey-bg p {
       font-family: DIN Pro;
@@ -6456,4 +6456,10 @@ section#section-1 {
 }
 section:last-child {
   padding-bottom: 3rem!important;
+}
+.breadcrumb a {
+  color: #3B6A80!important;
+}
+header.inside-page ul.dropdown-menu.show {
+  background-color: #f5f6f6!important;
 }
