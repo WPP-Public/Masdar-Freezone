@@ -6463,3 +6463,21 @@ section:last-child {
 header.inside-page ul.dropdown-menu.show {
   background-color: #f5f6f6!important;
 }
+
+.bg-grey h3 {
+  font-family: 'DINProBold'!important;
+  font-size: 1.5rem!important;
+  line-height: 32px;
+  text-align: left;
+  text-transform: none;
+  color: #101820!important;
+}
+.bg-grey {
+  margin-top: 0!important;
+  padding-top: 4rem!important;
+  background-color: var(--sys-neutral-background)!important;
+}
+a:hover {
+  color: #00999A!important;
+  text-decoration: underline;
+}
