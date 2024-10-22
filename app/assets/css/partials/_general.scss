@@ -6348,14 +6348,17 @@ ul.nolist {
   text-indent: 0; /* No indentation on the first line */
 }
 
+
+
+
 .pdf-doc-list a:before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 20px;  /* Adjust width for icon */
-  height: 20px; /* Adjust height for icon */
-  background-image: url('../../../assets/images/dynamic/PDF-icon.png');
+  width: 20px;
+  height: 20px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAxNiAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQgMTRIMTJWMTZINFYxNFpNNCAxMEgxMlYxMkg0VjEwWk0xMCAwSDJDMC45IDAgMCAwLjkgMCAyVjE4QzAgMTkuMSAwLjg5IDIwIDEuOTkgMjBIMTRDMTUuMSAyMCAxNiAxOS4xIDE2IDE4VjZMMTAgMFpNMTQgMThIMlYySDlWN0gxNFYxOFoiIGZpbGw9IiMwMDk5OUEiLz4KPC9zdmc+Cg==);
   background-size: contain;
   background-repeat: no-repeat;
 }
