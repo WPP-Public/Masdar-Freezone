@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    
+
     // Prevent default form submission
       $('form#costcalculator').on('submit', function(event) {
           event.preventDefault(); // Prevent the default action (form submission)
@@ -108,11 +110,12 @@ $(document).ready(function() {
         
         // Hide all tab panes initially and show the first one
         $('.tab-pane').hide();
-        $('.tab-pane').eq(currentPage - 1).show(); // Show the first tab pane (index 0)
+        $('.tab-pane').eq(currentPage - 1).show().addClass('active'); // Show the first tab pane (index 0)
     
         // Activate the first nav-link (indicator)
-        $('.nav-link').removeClass('active');
-        $('.nav-link').eq(currentPage - 1).addClass('active');
+        $('#costcalculator').find('.nav-link').removeClass('active');
+        $('#costcalculator').find('.nav-link').eq(currentPage - 1).addClass('active');
+        //$('#costcalculator').find('.nav-link').addClass('active');
     
         // Event listener for the next button click
         $('.next-btn').on('click', function() {
@@ -127,10 +130,8 @@ $(document).ready(function() {
                     }
             
                     // Hide all tab panes
-                    $('.tab-pane').hide();
-                    
-                    // Show the tab pane corresponding to the current page
-                    $('.tab-pane').eq(currentPage - 1).show();
+                    $('.tab-pane').removeClass('active').hide();
+                    $('.tab-pane').eq(currentPage - 1).show().addClass('active');
             
                     // Update the indicator
                     updateIndicator(currentPage);
@@ -146,11 +147,8 @@ $(document).ready(function() {
                           currentPage += 1; // Increment to go to the next page
                       }
               
-                      // Hide all tab panes
-                      $('.tab-pane').hide();
-                      
-                      // Show the tab pane corresponding to the current page
-                      $('.tab-pane').eq(currentPage - 1).show();
+                      $('.tab-pane').removeClass('active').hide();
+                      $('.tab-pane').eq(currentPage - 1).show().addClass('active');
               
                       // Update the indicator
                       updateIndicator(currentPage);
@@ -180,11 +178,8 @@ $(document).ready(function() {
                           currentPage += 1; // Increment to go to the next page
                       }
               
-                      // Hide all tab panes
-                      $('.tab-pane').hide();
-                      
-                      // Show the tab pane corresponding to the current page
-                      $('.tab-pane').eq(currentPage - 1).show();
+                      $('.tab-pane').removeClass('active').hide();
+                      $('.tab-pane').eq(currentPage - 1).show().addClass('active');
               
                       // Update the indicator
                       updateIndicator(currentPage);
@@ -248,11 +243,8 @@ $(document).ready(function() {
                           currentPage += 1; // Increment to go to the next page
                       }
               
-                      // Hide all tab panes
-                      $('.tab-pane').hide();
-                      
-                      // Show the tab pane corresponding to the current page
-                      $('.tab-pane').eq(currentPage - 1).show();
+                      $('.tab-pane').removeClass('active').hide();
+                      $('.tab-pane').eq(currentPage - 1).show().addClass('active');
               
                       // Update the indicator
                       updateIndicator(currentPage);
@@ -324,11 +316,8 @@ $(document).ready(function() {
                 currentPage -= 1; // Decrement to go to the previous page
             }
     
-            // Hide all tab panes
-            $('.tab-pane').hide();
-            
-            // Show the tab pane corresponding to the current page
-            $('.tab-pane').eq(currentPage - 1).show();
+            $('.tab-pane').removeClass('active').hide();
+            $('.tab-pane').eq(currentPage - 1).show().addClass('active');
     
             // Update the indicator
             updateIndicator(currentPage);
@@ -336,8 +325,8 @@ $(document).ready(function() {
     
         // Function to update the indicator
         function updateIndicator(pageNumber) {
-            $('.nav-link').removeClass('active'); // Remove active class from all indicators
-            $('.nav-link').eq(pageNumber - 1).addClass('active'); // Add active class to the current indicator
+            $('#costcalculator').find('.nav-link').removeClass('active'); // Remove active class from all indicators
+            $('#costcalculator').find('.nav-link').eq(pageNumber - 1).addClass('active'); // Add active class to the current indicator
         }
     });
     
