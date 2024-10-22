@@ -5755,9 +5755,9 @@ section.grey-bg {
   width: 100%!important;
 }
 button.accordion-button.collapsed {
-  font-family: DIN Pro;
+  font-family: 'DINProBold';
   font-size: 24px;
-  font-weight: 700;
+
   line-height: 36px;
   text-align: left;
   text-transform: uppercase;
@@ -5767,9 +5767,9 @@ button.accordion-button.collapsed {
   box-shadow: none !important;
 }
 button.accordion-button:focus {
-  font-family: DIN Pro;
+  font-family: 'DINProBold';
   font-size: 24px;
-  font-weight: 700;
+
   line-height: 36px;
   text-align: left;
   text-transform: uppercase;
@@ -6483,4 +6483,53 @@ header.inside-page ul.dropdown-menu.show {
 a:hover {
   color: #00999A!important;
   text-decoration: underline;
+}
+
+button.accordion-button.collapsed h3 {
+  font-size: 3.5rem!important;
+}
+button.accordion-button.collapsed p {
+  font-size: 1.5rem!important;
+  color: #101820!important;
+
+}
+button.accordion-button h3 {
+  font-size: 3.5rem!important;
+}
+button.accordion-button p {
+  font-size: 1.5rem!important;
+  color: #101820!important;
+
+}
+@media (min-width: 100px) and (max-width: 991px) {
+    .accordion-button:after{
+          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  filter: grayscale(1);
+    }
+      
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform: rotate(-180deg);
+        filter: grayscale(1);
+}}
+.accordion-button:focus{
+      border-color: transparent!important;
+    box-shadow: none !important;
+}
+.accordion-button{
+      border-color: transparent!important;
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {   
+   border-color: transparent!important;
+}
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+} 
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform: rotate(-180deg);
+
+    filter: grayscale(1);
 }
