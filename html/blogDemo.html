@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masdar City</title>
+    <!-- Favicon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon//favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon//site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <!-- SwiperJS CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css'>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/colors.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="assets/js/ScrollOnReveal.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+</head>
+
+
+<body class="en">
+
+    <!-- <div class="preloader position-fixed w-100 h-100">
+         <div class="progress-bar progress-animation"></div>
+    </div> -->
+    <header class="fixed-top sticky-lg-top font-r d-flex flex-column white-navbar inside-page" id="header">
+        <div class="top-nav px-5">
+            <div class="container-fluid">
+                <div class="row justify-content-end py-1 d-none d-lg-block">
+                    <div class="col-12">
+                        <ul class="horizontal-ul text-end p-0 fs-14 mb-0">
+                            <li>
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        English
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="ar/index.html"> العربية </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Members Portal</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row justify-content-between d-lg-none mt-4">
+                    <div class="col-7 z-11">
+                        <ul class="horizontal-ul text-start p-0 fs-14 mb-0">
+                            <li>
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        English
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="ar/index.html"> العربية </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">Members Portal</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-5 z-11">
+                        <div class="justify-content-end d-flex d-lg-none">
+                            <form action="" class="align-self-center search-form">
+                                <div class="form-group mx-sm-3 form-group-custom">
+                                    <input type="text" class="form-control border-0 bg-transparent p-0" id="search-text"
+                                        placeholder="Search...">
+                                </div>
+                            </form>
+                            <button class="search-icon bg-transparent border-0 p-0 mobile">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" class="align-self-center">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.76 13.27L20.49 19L19 20.49L13.27 14.76C12.2 15.53 10.91 16 9.5 16C5.91 16 3 13.09 3 9.5C3 5.91 5.91 3 9.5 3C13.09 3 16 5.91 16 9.5C16 10.91 15.53 12.2 14.76 13.27ZM9.5 5C7.01 5 5 7.01 5 9.5C5 11.99 7.01 14 9.5 14C11.99 14 14 11.99 14 9.5C14 7.01 11.99 5 9.5 5Z"
+                                        fill="#DBDCDE" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="px-5 my-auto pt-5 pt-lg-0">
+            <div class="container-fluid">
+                <div class="row justify-content-between pt-1 my-3 my-lg-0">
+                    <div class="col-6 col-md-4 col-lg-2 z-11">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/static/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-2 col-lg-7 my-auto">
+                        <nav class="navbar navbar-expand-lg w-100 justify-content-end">
+                            <button class="navbar-toggler pt-0 pe-0 pe-lg-3" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse text-start" id="navbarSupportedContent">
+                                <ul class="navbar-nav mb-2 mb-lg-0 mx-auto text-center">
+                                    <li>
+                                        <a href="about.html">
+                                            About
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">
+                                            Explore
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">
+                                            Contact us
+                                        </a>
+                                    </li>
+
+                                </ul>
+                                <div class="d-lg-none text-center">
+                                    <a href="#" target="_blank" class="btn btn-primary">Cost
+                                        Calculator</a>
+                                </div>
+                                <hr class="d-lg-none w-90 mx-auto">
+                            </div>
+                        </nav>
+                    </div>
+
+                    <div class="col-lg-3 d-none d-lg-flex my-auto text-end justify-content-end position-relative">
+                        <div class=" d-flex me-3">
+                            <form action="" class="align-self-center search-form">
+                                <div class="form-group mx-sm-3 form-group-custom">
+                                    <input type="text" class="form-control border-0 bg-transparent p-0" id="search-text"
+                                        placeholder="Search...">
+                                </div>
+                            </form>
+                            <button class="search-icon bg-transparent border-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" class="align-self-center">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.76 13.27L20.49 19L19 20.49L13.27 14.76C12.2 15.53 10.91 16 9.5 16C5.91 16 3 13.09 3 9.5C3 5.91 5.91 3 9.5 3C13.09 3 16 5.91 16 9.5C16 10.91 15.53 12.2 14.76 13.27ZM9.5 5C7.01 5 5 7.01 5 9.5C5 11.99 7.01 14 9.5 14C11.99 14 14 11.99 14 9.5C14 7.01 11.99 5 9.5 5Z"
+                                        fill="#DBDCDE" />
+                                </svg>
+                            </button>
+                        </div>
+                        <a href="#" target="blank" class="btn btn-primary fs-14 fw-700">Cost
+                            Calculator</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="main" id="sustainable-page">
+        <div class="life-sciences-wrapper">
+        <section class="hero-section">
+            <div class="background position-absolute w-100 h-100">
+                <img src="assets/images/dynamic/life-sciences.jpg" alt="" class="parallax1">
+            </div>
+            <div class="taregt"></div>
+        </section>
+        <section class="breadcrumb-section" id="breadcrumb">
+            <div class="taregt"></div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb my-5">
+                                <li class="breadcrumb-item font-m text-blue fs-14 d-flex align-items-center"><a href="#"
+                                        class="text-blue ">Home</a>
+                                </li>
+                                <!-- <li class="breadcrumb-item font-m text-blue fs-14 d-flex align-items-center"><a href="#"
+                                        class="text-blue ">Sustainable Urban
+                                        Development</a>
+                                </li> -->
+                                <li class="breadcrumb-item font-m  fs-14 d-flex align-items-center">
+                                    Life Sciences
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-5 pt-5" id="article-section-1">
+            <a class="arrow-badge mail-badge" href="mailto:info@masdarcity.ae" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <path
+                        d="M33 9C33 7.35 31.65 6 30 6H6C4.35 6 3 7.35 3 9V27C3 28.65 4.35 30 6 30H30C31.65 30 33 28.65 33 27V9ZM30 9L18 16.5L6 9H30ZM30 27H6V12L18 19.5L30 12V27Z"
+                        fill="#00999A" />
+                </svg>
+            </a>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                     <h1>Lorem ipsum dolor sit amet consectetur</h1>
+                        <div class="d-flex">
+                            <div class="d-flex p-3 align-items-center">
+                                <p class="fs-14 font-m fw-500 text-dark me-2 mb-0">Masdar City</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                    fill="none">
+                                    <path
+                                        d="M8.9925 1.50012C4.8525 1.50012 1.5 4.86012 1.5 9.00012C1.5 13.1401 4.8525 16.5001 8.9925 16.5001C13.14 16.5001 16.5 13.1401 16.5 9.00012C16.5 4.86012 13.14 1.50012 8.9925 1.50012ZM9 15.0001C5.685 15.0001 3 12.3151 3 9.00012C3 5.68512 5.685 3.00012 9 3.00012C12.315 3.00012 15 5.68512 15 9.00012C15 12.3151 12.315 15.0001 9 15.0001ZM11.625 8.25012C12.2475 8.25012 12.75 7.74762 12.75 7.12512C12.75 6.50262 12.2475 6.00012 11.625 6.00012C11.0025 6.00012 10.5 6.50262 10.5 7.12512C10.5 7.74762 11.0025 8.25012 11.625 8.25012ZM6.375 8.25012C6.9975 8.25012 7.5 7.74762 7.5 7.12512C7.5 6.50262 6.9975 6.00012 6.375 6.00012C5.7525 6.00012 5.25 6.50262 5.25 7.12512C5.25 7.74762 5.7525 8.25012 6.375 8.25012ZM9 13.1251C10.7475 13.1251 12.2325 12.0301 12.8325 10.5001H5.1675C5.7675 12.0301 7.2525 13.1251 9 13.1251Z"
+                                        fill="#00999A" />
+                                </svg>
+                            </div>
+                            <div class="d-flex p-3 align-items-center">
+                                <p class="fs-14 font-m fw-500 text-dark me-2 mb-0">12 Jan 2023</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                    fill="none">
+                                    <path
+                                        d="M14.25 3.00012H13.5V1.50012H12V3.00012H6V1.50012H4.5V3.00012H3.75C2.9175 3.00012 2.2575 3.67512 2.2575 4.50012L2.25 15.0001C2.25 15.8251 2.9175 16.5001 3.75 16.5001H14.25C15.075 16.5001 15.75 15.8251 15.75 15.0001V4.50012C15.75 3.67512 15.075 3.00012 14.25 3.00012ZM14.25 15.0001H3.75V7.50012H14.25V15.0001ZM14.25 6.00012H3.75V4.50012H14.25V6.00012ZM6.75 10.5001H5.25V9.00012H6.75V10.5001ZM9.75 10.5001H8.25V9.00012H9.75V10.5001ZM12.75 10.5001H11.25V9.00012H12.75V10.5001ZM6.75 13.5001H5.25V12.0001H6.75V13.5001ZM9.75 13.5001H8.25V12.0001H9.75V13.5001ZM12.75 13.5001H11.25V12.0001H12.75V13.5001Z"
+                                        fill="#00999A" />
+                                </svg>
+                            </div>
+                            <div class="d-flex p-3 align-items-center">
+                                <p class="fs-14 font-m fw-500 text-dark me-2 mb-0">2 mins read</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                    fill="none">
+                                    <path
+                                        d="M11.25 1.12512H6.75V2.62512H11.25V1.12512ZM8.25 10.8751H9.75V6.37512H8.25V10.8751ZM14.2725 5.91762L15.3375 4.85262C15.015 4.47012 14.6625 4.11012 14.28 3.79512L13.215 4.86012C12.0525 3.93012 10.59 3.37512 9 3.37512C5.2725 3.37512 2.25 6.39762 2.25 10.1251C2.25 13.8526 5.265 16.8751 9 16.8751C12.735 16.8751 15.75 13.8526 15.75 10.1251C15.75 8.53512 15.195 7.07262 14.2725 5.91762ZM9 15.3751C6.0975 15.3751 3.75 13.0276 3.75 10.1251C3.75 7.22262 6.0975 4.87512 9 4.87512C11.9025 4.87512 14.25 7.22262 14.25 10.1251C14.25 13.0276 11.9025 15.3751 9 15.3751Z"
+                                        fill="#00999A" />
+                                </svg>
+                            </div>
+                            <button class="d-flex p-3 align-items-center bg-transparent border-0"
+                                id="share-article-button-inside">
+                                <p class="fs-14 font-m fw-500 text-dark me-2 mb-0">Share</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                    fill="none">
+                                    <path
+                                        d="M13.5 12.0901C12.93 12.0901 12.42 12.3151 12.03 12.6676L6.6825 9.55512C6.72 9.38262 6.75 9.21012 6.75 9.03012C6.75 8.85012 6.72 8.67762 6.6825 8.50512L11.97 5.42262C12.375 5.79762 12.9075 6.03012 13.5 6.03012C14.745 6.03012 15.75 5.02512 15.75 3.78012C15.75 2.53512 14.745 1.53012 13.5 1.53012C12.255 1.53012 11.25 2.53512 11.25 3.78012C11.25 3.96012 11.28 4.13262 11.3175 4.30512L6.03 7.38762C5.625 7.01262 5.0925 6.78012 4.5 6.78012C3.255 6.78012 2.25 7.78512 2.25 9.03012C2.25 10.2751 3.255 11.2801 4.5 11.2801C5.0925 11.2801 5.625 11.0476 6.03 10.6726L11.37 13.7926C11.3325 13.9501 11.31 14.1151 11.31 14.2801C11.31 15.4876 12.2925 16.4701 13.5 16.4701C14.7075 16.4701 15.69 15.4876 15.69 14.2801C15.69 13.0726 14.7075 12.0901 13.5 12.0901ZM13.5 3.03012C13.9125 3.03012 14.25 3.36762 14.25 3.78012C14.25 4.19262 13.9125 4.53012 13.5 4.53012C13.0875 4.53012 12.75 4.19262 12.75 3.78012C12.75 3.36762 13.0875 3.03012 13.5 3.03012ZM4.5 9.78012C4.0875 9.78012 3.75 9.44262 3.75 9.03012C3.75 8.61762 4.0875 8.28012 4.5 8.28012C4.9125 8.28012 5.25 8.61762 5.25 9.03012C5.25 9.44262 4.9125 9.78012 4.5 9.78012ZM13.5 15.0451C13.0875 15.0451 12.75 14.7076 12.75 14.2951C12.75 13.8826 13.0875 13.5451 13.5 13.5451C13.9125 13.5451 14.25 13.8826 14.25 14.2951C14.25 14.7076 13.9125 15.0451 13.5 15.0451Z"
+                                        fill="#00999A" />
+                                </svg>
+                            </button>
+                        </div>
+                        <p>
+                            The 22 companies participating in Innovate this year will have access to lucrative
+                            investment opportunities and potential funding worth up to $200,000 through The Catalyst,
+                            Masdar City’s start-up accelerator
+                        </p>
+                        <div data-aos="fade-up" data-aos-duration="1000">
+                            <div class="swiper mySwiper2 overflow-hidden mb-4 position-relative mt-5">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/dynamic/article-3.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/dynamic/article-3-1.jpg" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                            <div thumbsSlider="" class="swiper mySwiper overflow-hidden underlined-title pb-5">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/dynamic/article-3.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/dynamic/article-3-1.jpg" />
+                                    </div>
+                                    <!-- <div class="swiper-slide">
+                                        <img src="assets/images/dynamic/image2.jpeg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/dynamic/news-4.jpeg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/dynamic/hero-about.png" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/dynamic/hero-freezone.png" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/dynamic/hero-media.png" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/dynamic/hero-about.png" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/dynamic/image2.jpeg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/dynamic/image3.png" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/dynamic/hero-freezone.png" />
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Swiper JS -->
+                        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+                        <!-- Initialize Swiper -->
+                        <script>
+                            function runSwiper() {
+                                var swiper = new Swiper(".mySwiper", {
+                                    spaceBetween: 5,
+                                    slidesPerView: 3,
+                                    freeMode: true,
+                                    watchSlidesProgress: true,
+                                    breakpoints: {
+                                        1024: {
+                                            slidesPerView: 7,
+                                            spaceBetween: 5,
+                                        },
+                                    }
+                                });
+                                var swiper2 = new Swiper(".mySwiper2", {
+                                    spaceBetween: 10,
+                                    navigation: {
+                                        nextEl: ".swiper-button-next",
+                                        prevEl: ".swiper-button-prev",
+                                    },
+                                    thumbs: {
+                                        swiper: swiper,
+                                    },
+                                });
+                            }
+
+                        </script>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="blog-sec">
+                                    <div class="text-section">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur. Mauris amet id consectetur eu nunc scelerisque viverra platea commodo. Suscipit sapien aenean vel ultrices. Mattis lacinia vehicula a semper. Posuere sit et mollis vestibulum.
+                                        </p>
+                                        <p>Lorem ipsum dolor sit amet consectetur. Mauris amet id consectetur eu nunc scelerisque viverra platea commodo. Suscipit sapien aenean vel ultrices. Mattis lacinia vehicula a semper. Posuere sit et mollis vestibulum. Orci quis fringilla congue interdum lacus et at habitant. Vel enim sagittis urna vel volutpat id at nisl. Vel in est lacus et auctor duis. Purus bibendum vitae leo volutpat at. In sagittis egestas faucibus amet nibh congue at. At posuere euismod elit a quam aliquet dictum sodales. Molestie turpis vulputate ipsum pulvinar faucibus vel libero. Suspendisse tristique at et neque vitae tortor quis cursus. Mi sodales elementum netus ipsum diam varius felis nec magna.</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur. Mauris amet id consectetur eu nunc scelerisque viverra platea commodo. Suscipit sapien aenean vel ultrices. Mattis lacinia vehicula a semper. Posuere sit et mollis vestibulum.</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur. Mauris amet id consectetur eu nunc scelerisque viverra platea commodo. Suscipit sapien aenean vel ultrices. Mattis lacinia vehicula a semper. Posuere sit et mollis vestibulum. Orci quis fringilla congue interdum lacus et at habitant. Vel enim sagittis urna vel volutpat id at nisl. Vel in est lacus et auctor duis.</p>
+                                    </div>
+                                    <div class="quote-section">
+                                     
+                                            <img src="assets/images/dynamic/quote.svg" alt="quote">
+                                            <p>Lorem ipsum dolor sit amet consectetur. Mauris amet id consectetur eu nunc scelerisque viverra platea commodo. Suscipit sapien aenean vel ultrices. Mattis lacinia vehicula a semper. Posuere sit et mollis vestibulum.</p>
+                                            
+                                           <p>Lorem ipsum dolor<br><strong>Lorem ipsum dolor</strong> </p>
+                                          
+                                  
+                                    </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                        
+                        <div class="d-flex justify-content-between mt-5 mb-5">
+                            <div class="me-5 me-lg-0">
+                                <a href="article-news-2.html" class="d-flex align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                        fill="none" class="flip">
+                                        <path
+                                            d="M12 4.42883L13.41 5.83883L7.83 11.4288H20V13.4288H7.83L13.41 19.0188L12 20.4288L4 12.4288L12 4.42883Z"
+                                            fill="#00999A" />
+                                    </svg>
+                                    <p class="fs-14 text-teal font-m fw-500 ms-3 mb-0">Previous</p>
+                                </a>
+                                <p class="text-dark fs-28 font-m fw-500 mt-2 mb-0">Lorem ipsum dolor</p>
+                            </div>
+                            <div class="ms-5 ms-lg-0">
+                                <a href="article-news-4.html" class="d-flex align-items-center justify-content-end">
+                                    <p class="fs-14 text-teal font-m fw-500 me-3 mb-0">Next</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                        fill="none" class="flip">
+                                        <path
+                                            d="M12 4.42883L10.59 5.83883L16.17 11.4288H4V13.4288H16.17L10.59 19.0188L12 20.4288L20 12.4288L12 4.42883Z"
+                                            fill="#00999A" />
+                                    </svg>
+                                </a>
+                                <p class="text-dark fs-28 font-m fw-500 mt-2 mb-0">Lorem ipsum dolor</p>
+
+                            </div>
+                        </div>
+                     
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+          
+          
+           
+        
+        
+        </div>
+    </main>
+
+
+    <footer class="bg-footer pb-0 d-lg-flex flex-column position-relative">
+        <img src="assets/images/dynamic/Skyline.svg" alt="" class="image-footer">
+
+
+        <div class="container py-80 position-relative z-10 d-flex flex-column flex-1 pb-2">
+            <div class="row ps-4 ps-lg-0">
+                <div class="col-lg-3">
+                    <div class="d-flex flex-column">
+                        <a href="#">
+                            <img src="assets/images/dynamic/logo-footer.svg" alt="Masdar freezone">
+                        </a>
+                        <div class="tel-footer">
+                            <a href="tel:+971 2 815 6666">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                    fill="none">
+                                    <path
+                                        d="M3 0C1.34315 0 0 1.34315 0 3V5.4C0 12.3588 5.64121 18 12.6 18H15C16.6569 18 18 16.6569 18 15V13.3416C18 12.6599 17.6148 12.0366 17.005 11.7317L14.1059 10.2821C13.1261 9.79224 11.9396 10.2837 11.5933 11.3229L11.2359 12.3948C11.1002 12.8021 10.6824 13.0446 10.2614 12.9604C7.62633 12.4334 5.56662 10.3737 5.03961 7.73863C4.95541 7.31764 5.19787 6.89983 5.60517 6.76407L6.93552 6.32061C7.82782 6.02318 8.34069 5.0889 8.11257 4.17642L7.40932 1.36344C7.209 0.562135 6.48903 0 5.66307 0H3Z"
+                                        fill="white" />
+                                </svg>
+                                <p>+971 2 815 6666</p>
+                            </a>
+                        </div>
+                        <div class="tel-footer">
+                            <a href="contact.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                    fill="none">
+                                    <path
+                                        d="M7.19995 7.79528C7.19995 6.80308 8.00615 5.99685 8.99995 5.99685C9.99375 5.99685 10.8 6.80308 10.8 7.79528C10.8 8.78748 9.99374 9.59374 8.99995 9.59374C8.00616 9.59374 7.19995 8.78748 7.19995 7.79528Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M1.19995 7.79528C1.19995 3.49052 4.69335 0 8.99995 0C13.3066 0 16.8 3.49052 16.8 7.79528C16.8 11.0041 15.194 13.5463 13.4741 15.2651C12.6121 16.1265 11.7092 16.7943 10.9358 17.2501C10.5494 17.4779 10.1882 17.6569 9.87414 17.7808C9.57767 17.8979 9.26648 17.989 8.99995 17.989C8.73342 17.989 8.42223 17.8979 8.12576 17.7808C7.81175 17.6569 7.45054 17.4779 7.06406 17.2501C6.29068 16.7943 5.38776 16.1265 4.52582 15.2651C2.8059 13.5463 1.19995 11.0041 1.19995 7.79528ZM8.99995 4.79685C7.34415 4.79685 5.99995 6.1396 5.99995 7.79528C5.99995 9.45094 7.34414 10.7937 8.99995 10.7937C10.6558 10.7937 12 9.45094 12 7.79528C12 6.1396 10.6558 4.79685 8.99995 4.79685Z"
+                                        fill="white" />
+                                </svg>
+                                <p>FIND US</p>
+                            </a>
+                        </div>
+                        <div class="tel-footer">
+                            <a href="contact.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                    fill="none">
+                                    <path
+                                        d="M0 3.0002C0 2.00608 0.805887 1.2002 1.8 1.2002H16.2C17.1941 1.2002 18 2.00608 18 3.0002V4.44929L9.00001 9.51178L0 4.44927V3.0002Z"
+                                        fill="white" />
+                                    <path
+                                        d="M0 5.82609V15.0002C0 15.9943 0.805887 16.8002 1.8 16.8002H16.2C17.1941 16.8002 18 15.9943 18 15.0002V5.82611L9.00001 10.8886L0 5.82609Z"
+                                        fill="white" />
+                                </svg>
+                                <p>SEND A MESSAGE</p>
+                            </a>
+                        </div>
+                        <a href="about.html#about-section-1">
+                            Support
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="small-title">
+                        <a href="about.html">
+                            About Masdar City Free Zone
+                        </a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="about.html#about-section-1">
+                            What is Masdar City
+                        </a>
+                        <a href="about.html#about-section-3">
+                            Business Enabler
+                        </a>
+                        <a href="about.html#about-section-4">
+                            Property and leasing
+                        </a>
+                        <a href="about.html#about-section-4">
+                            Legal and Regulation
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="small-title">
+                        <a href="about.html">
+                            Explore
+                        </a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="sustainable.html">
+                            Industry Clusters
+                        </a>
+                        <a href="sustainable-design.html#section-1">
+                            Events
+                        </a>
+                        <a href="upcoming-projects.html#section-1">
+                            News
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="d-flex flex-column">
+                        <a href="#">
+                            Download the new <br>
+                            Masdar city App
+                        </a>
+                        <div class="download-icon">
+                            <a href="#" target="_blank">
+                                <img src="assets/images/static/app-store.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="download-icon">
+                            <a href="#" target="_blank">
+                                <img src="assets/images/static/google-play.svg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-4">
+                            <p>© 2024 MASDAR CITY All
+                                Rights Reserved
+                            </p>
+                        </div>
+                        <div class="col-lg-3">
+                            <ul class="horizontal-ul text-center p-0 fs-14 mb-0">
+                                <li>
+                                    <a href="https://twitter.com/MasdarCity" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="19"
+                                            viewBox="0 0 24 19" fill="none">
+                                            <path
+                                                d="M4.83783 2.84082L10.3955 10.272L4.80273 16.3139H6.06145L10.9579 11.0241L14.9142 16.3139H19.1976L13.3272 8.46469L18.5329 2.84082H17.2742L12.7648 7.71257L9.12128 2.84082H4.83783ZM6.68886 3.76799H8.65669L17.3463 15.3865H15.3785L6.68886 3.76799Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/masdarcityabudhabi/?hl=en" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            viewBox="0 0 18 18" fill="none">
+                                            <path
+                                                d="M12.7334 4.7332H13.8001M5.80011 1.5332H12.2001C14.5565 1.5332 16.4668 3.44346 16.4668 5.79987V12.1999C16.4668 14.5563 14.5565 16.4665 12.2001 16.4665H5.80011C3.4437 16.4665 1.53345 14.5563 1.53345 12.1999V5.79987C1.53345 3.44345 3.4437 1.5332 5.80011 1.5332ZM9.00011 12.1999C7.2328 12.1999 5.80011 10.7672 5.80011 8.99987C5.80011 7.23256 7.2328 5.79987 9.00011 5.79987C10.7674 5.79987 12.2001 7.23256 12.2001 8.99987C12.2001 10.7672 10.7674 12.1999 9.00011 12.1999Z"
+                                                stroke="#ffffff" stroke-width="1.5" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/@Masdar_City" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17"
+                                            viewBox="0 0 18 17" fill="none">
+                                            <path
+                                                d="M1.5332 12.9162V4.67322C1.5332 3.96638 2.02698 3.35559 2.71813 3.20748C6.85896 2.32016 11.1408 2.32016 15.2816 3.20748C15.9728 3.35559 16.4665 3.96638 16.4665 4.67322V12.9162C16.4665 13.6231 15.9728 14.2339 15.2816 14.382C11.1408 15.2693 6.85896 15.2693 2.71813 14.382C2.02698 14.2339 1.5332 13.6231 1.5332 12.9162Z"
+                                                stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                                            <path d="M7.9332 10.9281V6.66139L11.1332 8.79473L7.9332 10.9281Z"
+                                                stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/masdarcity/?originalSubdomain=ae"
+                                        target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            viewBox="0 0 18 18" fill="none">
+                                            <path
+                                                d="M5.80011 7.39987V12.7332M12.2001 12.7332V10.0665C12.2001 8.88833 11.245 7.9332 10.0668 7.9332C8.88857 7.9332 7.93345 8.88833 7.93345 10.0665V12.7332V7.39987M5.26678 5.79987H6.33345M2.60011 1.5332H15.4001C15.9892 1.5332 16.4668 2.01077 16.4668 2.59987V15.3999C16.4668 15.989 15.9892 16.4665 15.4001 16.4665H2.60011C2.01101 16.4665 1.53345 15.989 1.53345 15.3999V2.59987C1.53345 2.01077 2.01101 1.5332 2.60011 1.5332Z"
+                                                stroke="#ffffff" stroke-width="1.5" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.facebook.com/MasdarCityAD/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            viewBox="0 0 18 18" fill="none">
+                                            <path
+                                                d="M9.00011 16.4665C4.87639 16.4665 1.53345 13.1236 1.53345 8.99987C1.53345 4.87614 4.87639 1.5332 9.00011 1.5332C13.1238 1.5332 16.4668 4.87614 16.4668 8.99987C16.4668 13.1236 13.1238 16.4665 9.00011 16.4665ZM9.00011 16.4665V7.9332C9.00011 6.755 9.95524 5.79987 11.1334 5.79987H11.6668M6.33345 10.0665H11.6668"
+                                                stroke="#ffffff" stroke-width="1.5" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-5 text-white text-center text-lg-end mt-3 mt-lg-0">
+                            <a href="privacy-policy.html">
+                                Privacy Policy
+                            </a>
+                            &nbsp;|&nbsp;
+                            <a href="terms.html">
+                                Terms & Conditions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    </div>
+
+
+
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js?v=3.3.0-3'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.5/ScrollToPlugin.min.js'></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+        AOS.init({
+            disable: function () {
+                var maxWidth = 1000;
+                return window.innerWidth < maxWidth;
+            }
+        });
+    </script>
+
+
+
+</body>
+
+</html>

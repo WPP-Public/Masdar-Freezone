@@ -772,9 +772,7 @@ header {
   border-bottom: 2px solid #000000;
 }
 
-.underlined-title {
-  border-bottom: 2px solid #000000;
-}
+
 
 .underlined-top {
   border-top: 2px solid #000000;
@@ -6476,8 +6474,9 @@ header.inside-page ul.dropdown-menu.show {
   color: #101820!important;
 }
 .bg-grey {
-  margin-top: 0!important;
+  margin-top: 4rem!important;
   padding-top: 4rem!important;
+  padding-bottom: 4rem!important;
   background-color: var(--sys-neutral-background)!important;
 }
 a:hover {
@@ -6532,4 +6531,89 @@ button.accordion-button p {
     transform: rotate(-180deg);
 
     filter: grayscale(1);
+}
+
+ .accordion-body h5 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #00999a !important;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none !important;
+    font-family: 'DINProBold';
+    padding-top: 2rem;
+}
+ .life-sciences-wrapper .logo-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%!important;
+}
+.accordion-body .life-sciences-wrapper h2 {
+    margin-bottom: 0rem!important;
+    margin-top: 0rem!important;
+}
+header a.btn.btn-primary.fs-14.fw-700 {
+  padding: 10px 11px !important;
+}
+
+.row.justify-content-end.py-3.px-5.d-none.d-lg-block {
+  background-color: #F1F1F2;
+  height: 44px;
+}
+.row.px-5.justify-content-between.pt-1.my-3.my-lg-0 {
+  background-color: #F5F6F6!important;
+  height: 80px;
+  padding-bottom: 7rem;
+}
+section#breadcrumb {
+  background-color: transparent!important;
+  padding-top: 0!important;
+  margin-top: 0!important;
+  padding-top: 0!important;
+}ul.horizontal-ul.text-end.p-0.fs-14.mb-0 {
+  display: flex;
+  justify-content: end;
+}
+header.inside-page path {
+  fill: var(--black);
+}
+svg.flip {
+  transform: scaleX(1)!important;
+}
+
+
+
+
+.quote-section {
+  background-color: #C4D4DC;
+  border-radius: 24px;
+  position: relative;
+  margin: 0;
+  padding: 50px 30px;
+}
+.quote-section  img {
+  padding-bottom: 2rem;
+}
+
+
+.quote-section  p strong{
+  
+  font-size: 14px!important;
+  font-weight: 700!important;
+  line-height: 24px!important;
+  letter-spacing: 0.10000000149011612px!important;
+  text-align: left!important;
+  font-style: normal!important;
+  }
+
+  .quote-section p:nth-child(2) {
+    font-family: 'DINProLight';
+    font-size: 24px;
+    font-style: italic;
+    line-height: 32px;
+    letter-spacing: 0.5px;
 }
