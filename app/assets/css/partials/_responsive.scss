@@ -1714,6 +1714,17 @@ header .navbar-collapse .popover, header .navbar-collapse .popover-body, header 
     }
 }
 @media (min-width: 992px) {
+    .blog-sec {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .text-section {
+        width: 60%;
+      }
+      .quote-section {
+        width: 35%;
+      }
     ul.dropdown-menu.show li {
         margin-left: 0.5rem!important;
         margin-right: 0.5rem!important;
