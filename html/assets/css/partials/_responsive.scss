@@ -1712,8 +1712,32 @@ header .navbar-collapse .popover, header .navbar-collapse .popover-body, header 
         font-family: 'DINProBold';
     
     }
+
+    header a.btn.btn-primary.text-black {
+        color: #005c5d !important;
+        background-color: #8ad7d7;
+        border: #8ad7d7;
+        margin-bottom: 2rem;
+    }
+
+header a.btn.btn-primary.text-black:hover {
+    background-color: #00999a;
+    color: white!important;
+}
+header ul.horizontal-ul.text-center.p-0.fs-14.mb-0 {
+    border-top: 1px solid #C4D4DC;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 1rem!important;
+}
 }
 @media (min-width: 992px) {
+    header ul.horizontal-ul.text-center.p-0.fs-14.mb-0 {
+        display: none;
+    }
     .blog-sec {
         display: flex;
         justify-content: space-between;
