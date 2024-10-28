@@ -1,4 +1,19 @@
 $(document).ready(function() {
+
+    $.fn.formatAsCurrencyAED = function(number) {
+        // Format the number with commas and currency
+        var formattedNumber = new Intl.NumberFormat('en-US', {
+            style: 'currency',
+            currency: 'AED',
+            minimumFractionDigits: 0 // Adjust this if you need decimal places
+        }).format(number);
+    
+        // Remove the AED symbol and append 'AED' after the formatted number
+        formattedNumber = formattedNumber.replace('AED', '').trim() + ' AED';
+    
+        // Set the formatted value in the selected element(s)
+        this.val(formattedNumber); // 'this' refers to the jQuery element the method is called on
+    };
     
 
     // Prevent default form submission
@@ -207,9 +222,7 @@ $(document).ready(function() {
 
                     // Construct the HTML string
                     var htmlContent2 = `
-                    <p>${selectedOption}</p>
-                    <p>${selectedOptionDesc}</p>
-                    `;
+                    <p>${selectedOption}</p>`;
 
                     // Use jQuery to output the HTML inside the target div
                     $('#companystructure').html(htmlContent2);
@@ -221,9 +234,9 @@ $(document).ready(function() {
                     for (var i = 1; i < selectedRadio.length; i++) {
                         // Create paragraphs for each option and its description
                         htmlContent3 += `<p>${selectedRadio[i]}</p>`;
-                        if (selectedRadioDesc[i]) {
+                        /*if (selectedRadioDesc[i]) {
                             htmlContent += `<p>${selectedRadioDesc[i]}</p>`;
-                        }
+                        }*/
                     }
 
                     // Use jQuery to output the HTML inside the target div
@@ -231,7 +244,6 @@ $(document).ready(function() {
 
                      var htmlContent4 = `
                             <p>${selectedOption2}</p>
-                            <p>${selectedOption2Desc}</p>
                         `;
 
                       // Use jQuery to output the HTML inside the target div
@@ -264,6 +276,8 @@ $(document).ready(function() {
                   console.log("selectedOption2",selectedOption2);
                   console.log("selectedOption2Desc",selectedOption2Desc);
 
+                  var totalCompanyStructure = parseFloat(selectedOption) + parseFloat(selectedOptionDesc);
+                  var totalLeasingOptions = parseFloat(selectedOption2Desc);
                             var summaryContent = `
                     <table class="table">
                         <thead>
@@ -301,8 +315,14 @@ $(document).ready(function() {
                 // Enable the button
                 $submitButton.removeAttr('disabled');
 
+                // fill the values in the hidden fields
+                $('#totalprice').val(totalCompanyStructure + 1000 + totalLeasingOptions);
+                $('#companystructure').formatAsCurrencyAED(totalCompanyStructure);
+                $('#licensecategory').formatAsCurrencyAED('1000');
+                $('#retailleasing').formatAsCurrencyAED(totalLeasingOptions);
                 // Trigger the click event
-                $submitButton[0].click(); // Force the click
+                //$submitButton[0].click(); // Force the click
+                $('.thank-you-message').removeClass('hidden');
               break;
           }
   
