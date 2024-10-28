@@ -247,7 +247,7 @@ $(document).ready(function() {
                         `;
 
                       // Use jQuery to output the HTML inside the target div
-                      //$('#officeretailleasingoptions').html(htmlContent4);
+                      $('#office\\&retailleasingoptions').html(htmlContent4);
 
                       // Update the current page number
                       var totalPages = $('.tab-pane').length;
@@ -316,7 +316,7 @@ $(document).ready(function() {
                 $submitButton.removeAttr('disabled');
 
                 // fill the values in the hidden fields
-                $('#totalprice').formatAsCurrencyAED(totalCompanyStructure + 1000 + totalLeasingOptions);
+                $('#totalprice').val(totalCompanyStructure + 1000 + totalLeasingOptions);
                 $('#companystructure').formatAsCurrencyAED(totalCompanyStructure);
                 $('#licensecategory').formatAsCurrencyAED('1000');
                 $('#retailleasing').formatAsCurrencyAED(totalLeasingOptions);
