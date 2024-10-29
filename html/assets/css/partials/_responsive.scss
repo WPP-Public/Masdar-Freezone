@@ -1733,10 +1733,19 @@ header ul.horizontal-ul.text-center.p-0.fs-14.mb-0 {
     margin: auto;
     padding-top: 1rem!important;
 } 
+.icons-section .col-6.col-lg-2.text-center.mb-3 {
+    justify-content: center;
+}
 }
 @media (min-width: 992px) {
     header ul.horizontal-ul.text-center.p-0.fs-14.mb-0 {
         display: none;
+    }
+    nav.navbar.navbar-expand-lg.w-100.justify-content-end {
+        display: block;
+    }
+    header.inside-page .text-white {
+        color: black!important;
     }
     .blog-sec {
         display: flex;

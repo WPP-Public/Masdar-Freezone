@@ -1,13 +1,1 @@
-<svg width="46" height="39" viewBox="0 0 46 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M31 1C33.21 1 35 2.61001 35 4.60001V6.39999C35 8.38999 33.21 10 31 10C28.79 10 27 8.38999 27 6.39999V4.60001C27 2.61001 28.79 1 31 1Z" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21.61 11.89L20 6H3L6 17H14" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M37.88 15C37.51 13.25 36.88 10 33.22 10H30.55C29.2 10 27.91 10.5 26.93 11.38L23.5 14.78C23.5 14.78 20.26 15.44 19.02 15.67C17.75 15.91 17 16.72 17 17.99C17 19.26 17.99 19.99 19.46 19.99H24.5L28.7 17.83" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M27.86 18.28L29 23.01C29 23.01 25.68 24.17 24.47 24.62C23.27 25.07 22.37 25.82 21.93 27.18L17.99 37.01" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M41.18 30H32.22C31.59 30 31.12 29.42 31.24 28.8L33.84 15.8C33.93 15.33 34.34 15 34.82 15H43.78C44.41 15 44.88 15.58 44.76 16.2L42.16 29.2C42.07 29.67 41.66 30 41.18 30Z" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M35 30V36" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M42 38V37L35 36L28 37V38" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M35 36V38" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19.46 20H1" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M6 20V37" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23 37L26.74 30.09C27.05 29.49 27.64 29 28.26 29H31.22" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg width="46" height="39" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M31 1c2.21 0 4 1.61 4 3.6v1.8c0 1.99-1.79 3.6-4 3.6s-4-1.61-4-3.6V4.6C27 2.61 28.79 1 31 1zm-9.39 10.89L20 6H3l3 11h8" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M37.88 15c-.37-1.75-1-5-4.66-5h-2.67c-1.35 0-2.64.5-3.62 1.38l-3.43 3.4s-3.24.66-4.48.89c-1.27.24-2.02 1.05-2.02 2.32 0 1.27.99 2 2.46 2h5.04l4.2-2.16" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M27.86 18.28L29 23.01s-3.32 1.16-4.53 1.61c-1.2.45-2.1 1.2-2.54 2.56l-3.94 9.83M41.18 30h-8.96c-.63 0-1.1-.58-.98-1.2l2.6-13c.09-.47.5-.8.98-.8h8.96c.63 0 1.1.58.98 1.2l-2.6 13c-.09.47-.5.8-.98.8zM35 30v6m7 2v-1l-7-1-7 1v1m7-2v2M19.46 20H1m5 0v17" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M23 37l3.74-6.91c.31-.6.9-1.09 1.52-1.09h2.96" stroke="#1B313B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>

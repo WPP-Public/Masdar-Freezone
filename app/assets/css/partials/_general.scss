@@ -4956,7 +4956,7 @@ border: 1px solid #00999A;
    text-align: center;
    text-transform: uppercase;
    font-size: 36px;
-   width: 80%;
+   width: 50%;
    margin-right: auto;
    margin-left: auto;
    margin-top: 24px;
@@ -4984,9 +4984,7 @@ border: 1px solid #00999A;
     border-bottom: 0;
     padding-bottom: 0!important;
   }
-  .hometo img{
-    height: 72px;
-  }
+
   .advancing{
 background-color: #F5F6F6;
   }
@@ -6809,4 +6807,20 @@ display: none;
 }
 header .navbar-collapse {
   z-index: -1;
+}
+
+.icons-section img {
+  max-width: 80%;
+}
+.icons-section .col-6.col-lg-2.text-center.mb-3 {
+  display: flex;
+  align-items: center;
+}
+div#Contentplaceholder1_C033_Col00 {
+  display: flex;
+  align-items: center;
+}
+.accordion-section 
+ svg.flip {
+    transform: scaleX(-1)!important;
 }

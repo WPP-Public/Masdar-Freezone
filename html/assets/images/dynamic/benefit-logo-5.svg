@@ -1,11 +1,1 @@
-<svg width="48" height="45" viewBox="0 0 48 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M13 25H1V34H13V25Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7.44995 34L4.07996 44" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15.08 9C17.2891 9 19.08 7.20914 19.08 5C19.08 2.79086 17.2891 1 15.08 1C12.8708 1 11.08 2.79086 11.08 5C11.08 7.20914 12.8708 9 15.08 9Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
-<path d="M16.08 19.04L22 22.31" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8.07996 44L11.96 34" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24 38L22.96 29L16 25V15C16 13.12 14.73 12.87 13.04 12C11.42 11.17 9.83 11.03 8.06 12C7.01 12.58 6.04 13.27 6.04 13.27C5.36 13.84 5 14.51 5 15.4V24.99M13.01 29.19L18.98 31.49L19.95 37.99M9 16.55V24.38C9 24.58 9 24.79 9.02 24.99" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23.54 34.03C28.8 30.72 32.73 27.22 34.98 21.39L30.13 19.62L44.69 9L46.39 25.97C46.39 25.97 43.38 25.03 42.24 24.56C38.82 32.88 26.34 44 12.24 43.89" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9.79004 39.59C13.12 38.85 16.49 37.72 19.68 36.17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1 41C2.4 41 3.83 40.67 5.29 40.34" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg width="48" height="45" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 25H1v9h12v-9zm-5.55 9L4.08 44" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15.08 9a4 4 0 100-8 4 4 0 000 8z" stroke="#fff" stroke-width="2" stroke-miterlimit="10"/><path d="M16.08 19.04L22 22.31M8.08 44l3.88-10M24 38l-1.04-9L16 25V15c0-1.88-1.27-2.13-2.96-3-1.62-.83-3.21-.97-4.98 0-1.05.58-2.02 1.27-2.02 1.27C5.36 13.84 5 14.51 5 15.4v9.59m8.01 4.2l5.97 2.3.97 6.5M9 16.55v7.83c0 .2 0 .41.02.61" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M23.54 34.03c5.26-3.31 9.19-6.81 11.44-12.64l-4.85-1.77L44.69 9l1.7 16.97s-3.01-.94-4.15-1.41c-3.42 8.32-15.9 19.44-30 19.33m-2.45-4.3c3.33-.74 6.7-1.87 9.89-3.42M1 41c1.4 0 2.83-.33 4.29-.66" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
