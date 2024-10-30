@@ -6737,17 +6737,6 @@ background: url('data:image/svg+xml;charset=utf-8,<svg width="60" height="60" vi
 width: 60px;
 height: 60px;
 }
-@media (min-width: 992px) and (max-width: 1239px) {
-  .blog-section .swiper-button-next {
-
-left: 84%;
-}
-.blog-section .swiper-button-prev {
-
-right: 84%!important;
-left: auto !important;
-}
-}
 
 
 @media (min-width: 1239px) {
@@ -6769,9 +6758,7 @@ transform: scaleX(-1);
 
 
 @media (min-width: 100px) and (max-width: 992px) {
-  .blog-section .swiper-button-next, .blog-section .swiper-button-prev {
-display: none;
-}
+
 }
 .blog-section .custom-container {
   display: flex;
