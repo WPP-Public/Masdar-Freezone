@@ -5728,7 +5728,7 @@ color: var(--sys-primary-primary) !important;
       margin-bottom: 1rem !important;
     }
     .grey-bg p {
-      font-family: DIN Pro;
+      font-family: 'DINPro';
       font-size: 18px;
       font-weight: 700;
       line-height: 20px;
@@ -5776,7 +5776,7 @@ button.accordion-button:focus {
   box-shadow: none !important;
 }
 .accordion-button:not(.collapsed){
-  font-family: DIN Pro;
+  font-family: 'DINPro';
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
@@ -5826,7 +5826,7 @@ button.accordion-button:focus {
   border: transparent!important;
 }
 .card p {
-  font-family: DIN Pro;
+  font-family: 'DINPro';
   font-size: 1.375rem!important;
   font-weight: 400;
   line-height: 32px;
@@ -5834,7 +5834,7 @@ button.accordion-button:focus {
   color: #64696e;
 }
 .card h5 {
-  font-family: DIN Pro;
+  font-family: 'DINPro';
   font-size: 1.75rem!important;
   font-weight: 500;
   line-height: 1.4;
@@ -5842,7 +5842,7 @@ button.accordion-button:focus {
   color: #101820;
 }
 .button-link.d-inline-block.readmore {
-  font-family: DIN Pro;
+  font-family: 'DINPro';
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
@@ -5862,7 +5862,7 @@ button.accordion-button:focus {
   padding-right: 1rem;
 }
 .swiper-button {
-  font-family: DIN Pro;
+  font-family: 'DINPro';
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
@@ -5976,7 +5976,7 @@ button.accordion-button:focus {
 
   }
   .coming-soon-container .mail-call p, .coming-soon-container .mail-call a {
-    font-family: DIN Pro;
+    font-family: 'DINPro';
     font-size: 28px;
     font-weight: 700;
     line-height: 30px;
@@ -6263,7 +6263,7 @@ margin-bottom: 1rem;
 
 /* Paragraph styling */
 .grid-description {
-font-family: 'DIN Pro';
+font-family: ''DINPro'';
 font-size: 1.1rem;
 font-weight: 500;
 line-height: 1.7rem;
@@ -6330,7 +6330,7 @@ ul.nolist {
 }
 
 .container.pdf-doc-list a {
-  font-family: DIN Pro;
+  font-family: 'DINPro';
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -6364,7 +6364,7 @@ ul.nolist {
 }
 
 .container.pdf-doc-link a {
-  font-family: DIN Pro;
+  font-family: 'DINPro';
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -6611,7 +6611,7 @@ svg.flip {
 
   .quote-section p:nth-child(2) {
     font-family: 'DINProLight';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: italic;
     line-height: 32px;
     letter-spacing: 0.5px;
@@ -6740,18 +6740,7 @@ height: 60px;
 }
 
 
-@media (min-width: 1239px) {
-  .blog-section .swiper-button-next {
 
-  left: 84%;
-}
-.blog-section .swiper-button-prev {
-
-  right: 84%;
-  left: auto !important;
-}
-
-}
 .blog-section .swiper-button-prev {
 transform: scaleX(-1);
 
@@ -6833,4 +6822,8 @@ section.blog-section .swiper-slide {
 .advancing a {
   padding: 0;
   border: 0;
+}
+.life-sciences-wrapper .card p {
+  font-family: 'DINPro';
+
 }
