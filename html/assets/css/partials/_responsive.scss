@@ -1522,7 +1522,7 @@
     }
     section.hero-section{
         height: auto;
-        padding-top: 0px;
+        padding-top: 4rem;
         .background{
             padding-top: 120px;
             &.h-100{
@@ -1719,7 +1719,12 @@ header .navbar-collapse .popover, header .navbar-collapse .popover-body, header 
         border: #8ad7d7;
         margin-bottom: 2rem;
     }
-
+    header a.btn.btn-primary {
+        color: #005c5d !important;
+        background-color: #8ad7d7;
+        border: #8ad7d7;
+        margin-bottom: 2rem;
+    }
 header a.btn.btn-primary.text-black:hover {
     background-color: #00999a;
     color: white!important;
@@ -1749,15 +1754,11 @@ header ul.horizontal-ul.text-center.p-0.fs-14.mb-0 {
     }
     .blog-sec {
         display: flex;
-        justify-content: space-between;
       }
-      
       .text-section {
-        width: 60%;
-      }
-      .quote-section {
-        width: 35%;
-      }
+        padding-right: 2rem;
+    }
+   
     ul.dropdown-menu.show li {
         margin-left: 0.5rem!important;
         margin-right: 0.5rem!important;
