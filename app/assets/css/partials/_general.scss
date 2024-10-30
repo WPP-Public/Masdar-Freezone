@@ -5002,6 +5002,7 @@ background-color: #F5F6F6;
   .image-container p{
     position: absolute;
     bottom: 44px;
+    left: 30px;
     color: #fff!important;
     text-transform: uppercase;
     font-size: 50px;
@@ -6828,4 +6829,8 @@ section.blog-section .swiper-slide {
 }
 .swiper.mySwiper.overflow-hidden.underlined-title.pb-5.swiper-container-initialized.swiper-container-horizontal.swiper-container-free-mode.swiper-container-thumbs img {
   max-height: 160px!important;
+}
+.advancing a {
+  padding: 0;
+  border: 0;
 }
