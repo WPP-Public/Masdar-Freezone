@@ -247,7 +247,7 @@ $(document).ready(function() {
                         `;
 
                       // Use jQuery to output the HTML inside the target div
-                      $('#office\\&retailleasingoptions').html(htmlContent4);
+                      //$('#officeretailleasingoptions').html(htmlContent4);
 
                       // Update the current page number
                       var totalPages = $('.tab-pane').length;
@@ -316,13 +316,17 @@ $(document).ready(function() {
                 $submitButton.removeAttr('disabled');
 
                 // fill the values in the hidden fields
-                $('#totalprice').val(totalCompanyStructure + 1000 + totalLeasingOptions);
+                $('#totalprice').formatAsCurrencyAED(totalCompanyStructure + 1000 + totalLeasingOptions);
                 $('#companystructure').formatAsCurrencyAED(totalCompanyStructure);
                 $('#licensecategory').formatAsCurrencyAED('1000');
                 $('#retailleasing').formatAsCurrencyAED(totalLeasingOptions);
                 // Trigger the click event
                 //$submitButton[0].click(); // Force the click
                 $('.thank-you-message').removeClass('hidden');
+                $('div#v-pills-tab').addClass('hidden');
+                $('html, body').animate({
+                    scrollTop: $('.main').offset().top - 20 // Adjust -20 to change the offset as needed
+                }, 500); // 500ms for smooth scrolling speed, adjust as desired
               break;
           }
   
@@ -345,8 +349,16 @@ $(document).ready(function() {
     
         // Function to update the indicator
         function updateIndicator(pageNumber) {
-            $('#costcalculator').find('.nav-link').removeClass('active'); // Remove active class from all indicators
-            $('#costcalculator').find('.nav-link').eq(pageNumber - 1).addClass('active'); // Add active class to the current indicator
+            // Remove active class from all indicators
+            $('#costcalculator').find('.nav-link').removeClass('active');
+            
+            // Add active class to the current indicator
+            $('#costcalculator').find('.nav-link').eq(pageNumber - 1).addClass('active');
+            
+            // Smoothly scroll to the top with a specified offset
+            $('html, body').animate({
+                scrollTop: $('#costcalculator').offset().top - 20 // Adjust -20 to change the offset as needed
+            }, 500); // 500ms for smooth scrolling speed, adjust as desired
         }
     });
     
