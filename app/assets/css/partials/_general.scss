@@ -6827,3 +6827,73 @@ section.blog-section .swiper-slide {
   font-family: 'DINPro';
 
 }
+
+
+
+header .navbar-nav li {
+  font-size: 1rem !important;
+  padding: 0;
+}
+header .dropdown-item, header .dropdown-menu, header .dropdown-toggle, header .horizontal-ul li{
+font-size: 1rem !important;
+}
+ul.horizontal-ul.text-end.p-0.fs-14.mb-0{
+align-items:center
+}
+@media (min-width: 992px) and (max-width: 1619px) {
+  header .fs-14 {
+      font-size: 1rem !important;
+  }
+}
+header svg {
+  width: 22px;
+}
+@media (min-width: 100px) and (max-width: 991px) {
+  .navbar-brand img {
+      width: 100% !important;
+  }
+.content-first-fold a {
+  margin-right: auto;
+  margin-left: auto;
+}
+}
+@media (min-width: 100px) and (max-width: 340px) {
+    section.first-fold {
+      height: 140vh;
+  }
+}
+@media (min-width: 100px) and (max-width: 991px) {
+li.nav-item:not(:last-child):after {
+width: 80%;
+      height: 1px;
+}}
+
+@media (min-width: 100px) and (max-width: 991px) {
+header .navbar-collapse {
+padding-top:180px
+}}
+
+@media (min-width: 100px) and (max-width: 991px) {
+  section.hero-section .background {
+      padding-top: 0;
+  }
+  main section:first-of-type {
+    padding-top: 130px !important;
+}
+main section:first-of-type#breadcrumb{
+  padding-top: 130px !important;
+}
+section#section-1 {
+  padding-top: 0rem !important;
+}
+section#faq-section{
+  padding-top: 3rem!important;
+}
+section#faq-section h2{
+    margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+}
+.news-section img {
+  transform: scale(0.5);
+}
+}
