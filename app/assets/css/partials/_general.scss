@@ -6897,3 +6897,14 @@ section#faq-section h2{
   transform: scale(0.5);
 }
 }
+.step-card.image-card p {
+  padding-bottom: 0 !important;
+}
+
+.step-card.image-card {
+  padding: 0 !important;
+  justify-content: start;
+}
+.step-card.image-card .content p.first-content {
+  min-height: 240px;
+}
